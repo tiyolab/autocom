@@ -15,9 +15,10 @@ class SecureController extends Controller{
 		$session = Yii::$app->session;
 		$session->open();
 
+		$this->mySite = str_replace(array(" ","-","_"), "", $this->id);
+
 		if(isset($session['session.user']) && $session['session.user']['login']){
 			$model = new Module();
-			$this->mySite = str_replace(array(" ","-","_"), "", $this->id);
 
 			//$this->baseModule = Module::find()->where(["name"=>$this->mySite])->asArray()->one();
 			$this->baseModule = $model->findModuleByName($this->mySite);
@@ -36,6 +37,23 @@ class SecureController extends Controller{
 		$session->close();
 
 		parent::init();
+	}
+
+	public function beforeAction($action)
+	{
+		if (parent::beforeAction($action)) {
+			$session = Yii::$app->session;
+			if($this->action->id != "login"){
+				if(!$session['session.user']['login']){
+		            $session->close();
+		            return $this->redirect(['site/login']);
+		        }
+			}
+
+	        return true; // or false if needed
+	    } else {
+	    	return false;
+	    }
 	}
 
 	public function isInsertAllowed(){
