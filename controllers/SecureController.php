@@ -44,10 +44,12 @@ class SecureController extends Controller{
 		if (parent::beforeAction($action)) {
 			$session = Yii::$app->session;
 			if($this->action->id != "login"){
+				$session->open();
 				if(!$session['session.user']['login']){
 		            $session->close();
 		            return $this->redirect(['site/login']);
 		        }
+		        $session->close();
 			}
 
 	        return true; // or false if needed
