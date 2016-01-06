@@ -31,7 +31,8 @@ $session->close();
 <label>Welcome <?=$user_session['username']?>, You're Login as <?=$user_session['user_type']?></label><br>
  	<div class="container">
  		<div>
- 			<?= Html::a("Role Management", Yii::$app->urlManager->createUrl('security/role-management'), array()) ?>
+ 			<?= Html::a("Role Management", Yii::$app->urlManager->createUrl('security/role-management'), array()) ?> |
+ 			<?= Html::a("User Type Management", Yii::$app->urlManager->createUrl('security/user-type-management'), array()) ?> |
  		</div>
         <?= $content ?>
     </div>

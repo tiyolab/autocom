@@ -7,6 +7,7 @@ use app\controllers\SecureController;
 
 use app\models\Role;
 use app\models\RoleModule;
+use app\models\UserType;
 
 class SecurityController extends SecureController{
 	public $layout = "security_layout";
@@ -76,7 +77,68 @@ class SecurityController extends SecureController{
 				return $this->render('role_list');
 			}
 
-        	return $this->render('update_role');
+        	return $this->render('role_list');
+        }else{
+        	echo "You don't have access here";die;	
+        }
+	}
+
+	/**
+	* start for handling user type management
+	*/
+
+	public function actionUserTypeManagement(){
+		if($this->isSelectAllowed()){
+			return $this->render('user_type_list');	
+		}else{
+			echo "You don't have access here";die;
+		}
+		
+	}
+
+	public function actionCreateUserType(){
+		if($this->isInsertAllowed()){
+			if(Yii::$app->request->post()){
+				$userTypeModel = new UserType();
+				$userTypeModel->name = Yii::$app->request->post()['name'];
+				$userTypeModel->role = Yii::$app->request->post()['role'];
+				$userTypeModel->save();
+
+				return $this->render('user_type_list');
+			}
+
+        	return $this->render('create_user_type');
+        }else{
+        	echo "You don't have access here";die;	
+        }
+	}
+
+	public function actionUpdateUserType(){
+		if($this->isUpdateAllowed()){
+			if(Yii::$app->request->post()){
+				$userTypeModel = UserType::findOne(Yii::$app->request->get()['id']);
+				$userTypeModel->name = Yii::$app->request->post()['name'];
+				$userTypeModel->role = Yii::$app->request->post()['role'];
+				$userTypeModel->update();
+
+				return $this->render('user_type_list');
+			}
+
+        	return $this->render('update_user_type');
+        }else{
+        	echo "You don't have access here";die;	
+        }
+	}
+
+	public function actionDeleteUserType(){
+		if($this->isDeleteAllowed()){
+			if(Yii::$app->request->get()){
+				UserType::deleteAll('id = '.Yii::$app->request->get()['id']);
+
+				return $this->render('user_type_list');
+			}
+
+        	return $this->render('user_type_list');
         }else{
         	echo "You don't have access here";die;	
         }
