@@ -83,29 +83,29 @@ if(class_exists('yii\debug\Module')){
 			</div>
 		</div>
 		<a class="current logo hidden-xs" href="index.html"><i class="fa fa-rocket"></i></a>
-		<h1>Dashboard</h1>
+		<h1>SURAT dan ARSIP</h1>
 	</div>
 	<div class="side">
 		<div class="sidebar-wrapper">
 			<ul>
 				<li class='current'>
-					<a href="<?php echo Url::to('buat-surat') ?>" class="current" data-toggle="tooltip" data-placement="right" title="" data-original-title="Buat Surat">
+					<a href="<?php echo Url::to('surat-arsip/buat-surat') ?>" class="current" data-toggle="tooltip" data-placement="right" title="" data-original-title="Buat Surat">
 						<i class="fa fa-home"></i>
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo Url::to('surat-masuk') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Masuk">
+					<a href="<?php echo Url::to('surat-arsip/surat-masuk') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Masuk">
 						<i class="fa fa-file-text-o"></i>
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo Url::to('surat-keluar') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Keluar">
+					<a href="<?php echo Url::to('surat-arsip/surat-keluar') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Keluar">
 						<span class="badge"></span>
 						<i class="fa fa-code-fork"></i>
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo Url::to('persetujuan-surat') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Persetujuan Surat">
+					<a href="<?php echo Url::to('surat-arsip/persetujuan-surat') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Persetujuan Surat">
 						<i class="fa fa-bar-chart-o"></i>
 					</a>
 				</li>

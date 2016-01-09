@@ -19,15 +19,13 @@
 // pjax specific options:
 //
 //
-//       container - Where to stick the response body. Usually a String selector.
-//                   $(container).html(xhr.responseBody)
-//                   (default: current jquery context)
-//            push - Whether to pushState the URL. Defaults to true (of course).
-//         replace - Want to use replaceState instead? That's cool.
-//         history - Work with window.history. Defaults to true
-//           cache - Whether to cache pages HTML. Defaults to true
-//    pushRedirect - Whether to pushState the URL for redirects. Defaults to false.
-// replaceRedirect - Whether to replaceState the URL for redirects. Defaults to true.
+// container - Where to stick the response body. Usually a String selector.
+//             $(container).html(xhr.responseBody)
+//             (default: current jquery context)
+//      push - Whether to pushState the URL. Defaults to true (of course).
+//   replace - Want to use replaceState instead? That's cool.
+//   history - Work with window.history. Defaults to true
+//   cache   - Whether to cache pages HTML. Defaults to true
 //
 // For convenience the second parameter can be either the container or
 // the options object.
@@ -253,16 +251,11 @@ function pjax(options) {
   options.error = function(xhr, textStatus, errorThrown) {
     var container = extractContainer("", xhr, options)
     // Check redirect status code
-    var redirect = (xhr.status >= 301 && xhr.status <= 303)
-    // Do not fire pjax::error in case of redirect
+	var redirect = (xhr.status >= 301 && xhr.status <= 303)
+	// Do not fire pjax::error in case of redirect
     var allowed = redirect || fire('pjax:error', [xhr, textStatus, errorThrown, options])
     if (redirect || options.type == 'GET' && textStatus !== 'abort' && allowed) {
-      if (options.replaceRedirect) {
-        locationReplace(container.url)
-      } else if (options.pushRedirect) {
-        window.history.pushState(null, "", container.url)
-        window.location.replace(container.url)
-      }
+      locationReplace(container.url)
     }
   }
 
@@ -915,9 +908,7 @@ function enable() {
     dataType: 'html',
     scrollTo: 0,
     maxCacheLength: 20,
-    version: findVersion,
-    pushRedirect: false,
-    replaceRedirect: true
+    version: findVersion
   }
   $(window).on('popstate.pjax', onPjaxPopstate)
 }

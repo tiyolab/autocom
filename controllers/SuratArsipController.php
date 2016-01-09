@@ -4,13 +4,18 @@ namespace app\controllers;
 
 use Yii;
 use app\controllers\SecureController;
+use mPDF;
 
 class SuratArsipController extends SecureController{
 
 	public $layout = "suratarsip_layout";
 
 	public function actionIndex() {
-		return $this->render('index');
+//		return $this->render('index');
+		$mpdf = new mPDF;
+		$mpdf->WriteHTML('<p>Hallo World</p>');
+		$mpdf->Output();
+		exit;
 	}
 
 	// Membuat surat

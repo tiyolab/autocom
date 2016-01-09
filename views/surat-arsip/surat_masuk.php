@@ -8,11 +8,15 @@ use app\models\Surat;
 
 $datasurat = new Surat();
 
-echo "Surat Masuk<br><br>";
-
 ?>
-
-    <table class="table table-striped">
+<div class="widget widget-blue">
+    <div class="widget-title">
+        Surat Masuk
+    </div>
+<div class="widget-content">
+    <div class="row">
+        <div class="col-md-12">
+    <table class="table">
         <tr>
             <th>Nomor Surat</th>
             <th>Jenis Surat</th>
@@ -34,3 +38,7 @@ echo "Surat Masuk<br><br>";
         }
     ?>
     </table>
+            </div>
+        </div>
+    </div>
+    </div>
