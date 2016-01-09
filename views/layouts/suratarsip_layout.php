@@ -6,6 +6,7 @@
 use yii\helpers\Html;
 use app\assets\AppAsset;
 use yii\bootstrap\Nav;
+use yii\helpers\Url;
 
 AppAsset::register($this);
 
@@ -88,28 +89,28 @@ if(class_exists('yii\debug\Module')){
 		<div class="sidebar-wrapper">
 			<ul>
 				<li class='current'>
-					<a class="current" href="index.html" data-toggle="tooltip" data-placement="right" title="" data-original-title="Buat Surat">
+					<a href="<?php echo Url::to('buat-surat') ?>" class="current" data-toggle="tooltip" data-placement="right" title="" data-original-title="Buat Surat">
 						<i class="fa fa-home"></i>
 					</a>
 				</li>
 				<li>
-					<a href="forms.html" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Masuk">
+					<a href="<?php echo Url::to('surat-masuk') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Masuk">
 						<i class="fa fa-file-text-o"></i>
 					</a>
 				</li>
 				<li>
-					<a href="elements.html" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Keluar">
+					<a href="<?php echo Url::to('surat-keluar') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Keluar">
 						<span class="badge"></span>
 						<i class="fa fa-code-fork"></i>
 					</a>
 				</li>
 				<li>
-					<a href="charts.html" data-toggle="tooltip" data-placement="right" title="" data-original-title="Persetujuan Surat">
+					<a href="<?php echo Url::to('persetujuan-surat') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Persetujuan Surat">
 						<i class="fa fa-bar-chart-o"></i>
 					</a>
 				</li>
 				<li>
-					<a class="menu-toggler" href="table.html" data-toggle="tooltip" data-placement="right" title="" data-original-title="Arsip">
+					<a class="menu-toggler" href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="Arsip">
 						<i class="fa fa-th"></i>
 					</a>
 				</li>
@@ -121,11 +122,11 @@ if(class_exists('yii\debug\Module')){
 				<?php
 				echo Nav::widget([
 					'items' => [
-						['label' => 'Buat Arsip', 'url' => ['/site/index']],
-						['label' => 'Arsip', 'url' => ['/site/index']],
-						['label' => 'Buat Memo', 'url' => ['/site/index']],
-						['label' => 'Memo Masuk', 'url' => ['/site/about']],
-						['label' => 'Memo Keluar', 'url' => ['/site/about']],
+						['label' => 'Buat Arsip', 'url' => ['/surat-arsip/buat-arsip']],
+						['label' => 'Arsip', 'url' => ['/surat-arsip/arsip']],
+						['label' => 'Buat Memo', 'url' => ['/surat-arsip/buat-memo']],
+						['label' => 'Memo Masuk', 'url' => ['/surat-arsip/memo-masuk']],
+						['label' => 'Memo Keluar', 'url' => ['/surat-arsip/memo-keluar']],
 
 					],
 				]);

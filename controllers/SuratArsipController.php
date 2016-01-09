@@ -26,6 +26,7 @@ class SuratArsipController extends SecureController{
 	// Melihat surat masuk
 	public function actionSuratMasuk(){
 		if($this->isSelectAllowed()){
+
 			return $this->render('surat_masuk');
 		}else{
 			echo "You don't have access here";die;
