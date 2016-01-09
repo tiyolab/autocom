@@ -6,12 +6,11 @@ create or replace view v_user_role as
 		role.id as id_role, role.name as role,
 		user_type.name as user_type,
 		module.id as module,
-		group_concat(hak_akses.id) as hak_akses
-	from user, user_type, role, role_module, hak_akses, module
+		group_concat(role_module.hak_akses) as hak_akses
+	from user, user_type, role, role_module, module
 	where 
 		user.user_type = user_type.id and 
 		user_type.role = role.id and
 		role_module.role = role.id and
-		role_module.module = module.id and
-		role_module.hak_akses = hak_akses.id
-	group by module.id
+		role_module.module = module.id
+	group by role_module.module, role_module.role

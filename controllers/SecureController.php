@@ -89,5 +89,19 @@ class SecureController extends Controller{
 			return false;
 		}	
 	}
+
+	public function getHakAkses(){
+		$session = Yii::$app->session;
+		$session->open();
+		if(isset($session['session.user']) && $session['session.user']['login']){
+			$model = new Module();
+			$tmpModule = $model->findModuleByName($this->mySite);
+			return $session['session.user']['hak_akses'][$tmpModule['id']];
+
+		}else{
+			return array();
+		}
+		$session->close();
+	}
 }
 ?>
