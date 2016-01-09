@@ -6,8 +6,13 @@ use Yii;
 use app\controllers\SecureController;
 
 class SuratArsipController extends SecureController{
+
 	public function actionIndex(){
-		echo "index of SuratArsip";
+		return $this->render('index');
+	}
+
+	public function actionTes(){
+		return $this->render('index');
 	}
 }
 
