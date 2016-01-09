@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use Yii;
+use yii\web\Controller;
 use yii\filters\AccessControl;
 use app\controllers\SecureController;
 use yii\filters\VerbFilter;
@@ -11,7 +12,7 @@ use app\models\VUserRole;
 
 use app\models\User;
 
-class SiteController extends SecureController
+class SiteController extends Controller
 {
     public function behaviors()
     {
@@ -51,7 +52,7 @@ class SiteController extends SecureController
 
     public function actionIndex()
     {
-        $session = Yii::$app->session;
+        /*$session = Yii::$app->session;
         $session->open();
         if(!$session['session.user']['login']){
             $session->close();
@@ -59,7 +60,9 @@ class SiteController extends SecureController
         }else{
             $session->close();
             return $this->redirect(['site/portal']);
-        }
+        }*/
+
+        return $this->redirect(['front/front/index']);
     }
 
     public function actionLogin()
