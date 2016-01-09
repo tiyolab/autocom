@@ -12,9 +12,14 @@ echo "Surat Masuk<br><br>";
 
 ?>
 
-    <table>
+    <table class="table table-striped">
         <tr>
-            
+            <th>Nomor Surat</th>
+            <th>Jenis Surat</th>
+            <th>Pengirim</th>
+            <th>Tanggal</th>
+            <th>Perihal</th>
+            <th>Isi</th>
         </tr>
     <?php
         foreach( $datasurat -> showalldata() as $item => $value){
