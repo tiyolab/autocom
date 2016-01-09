@@ -130,4 +130,10 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     {
         return $this->password === md5($password);
     }
+
+    public function findUser(){
+        $sql = "select user.username, user.id, user.email, user_type.id as id_user_type, user_type.name as user_type_name from ".$this->tableName().", user_type where user_type.id = user.user_type";
+        $model = self::findBySql($sql)->asArray()->all();
+        return $model;
+    }
 }

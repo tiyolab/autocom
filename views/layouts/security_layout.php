@@ -33,6 +33,7 @@ $session->close();
  		<div>
  			<?= Html::a("Role Management", Yii::$app->urlManager->createUrl('security/role-management'), array()) ?> |
  			<?= Html::a("User Type Management", Yii::$app->urlManager->createUrl('security/user-type-management'), array()) ?> |
+ 			<?= Html::a("User Management", Yii::$app->urlManager->createUrl('security/user-management'), array()) ?> |
  		</div>
         <?= $content ?>
     </div>

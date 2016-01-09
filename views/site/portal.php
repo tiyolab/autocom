@@ -13,6 +13,7 @@ $session->close();
 ?>
 
 <label>Welcome <?=$user_session['username']?>, You're Login as <?=$user_session['user_type']?></label><br>
+<a href="<?= Yii::$app->urlManager->createUrl("site/logout") ?>" data-method="post">Logout</a><br>
 
 <?php foreach ($module as $key => $value) {
 	if(isset($user_session['hak_akses'][$value['id']]) && !empty(isset($user_session['hak_akses'][$value['id']]))){

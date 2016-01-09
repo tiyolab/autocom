@@ -8,6 +8,7 @@ use app\controllers\SecureController;
 use app\models\Role;
 use app\models\RoleModule;
 use app\models\UserType;
+use app\models\User;
 
 class SecurityController extends SecureController{
 	public $layout = "security_layout";
@@ -139,6 +140,37 @@ class SecurityController extends SecureController{
 			}
 
         	return $this->render('user_type_list');
+        }else{
+        	echo "You don't have access here";die;	
+        }
+	}
+
+	public function actionUserManagement(){
+		if($this->isSelectAllowed()){
+			return $this->render('user_list');	
+		}else{
+        	echo "You don't have access here";die;	
+        }
+	}
+
+	public function actionCreateUser(){
+		if($this->isInsertAllowed()){
+			if(Yii::$app->request->post()){
+				$user = new User();
+				$user->username = Yii::$app->request->post()['username'];
+				$user->password = md5(Yii::$app->request->post()['password']);
+				$user->email = Yii::$app->request->post()['email'];
+				$user->sec_question = Yii::$app->request->post()['sec_question'];
+				$user->sec_answer = Yii::$app->request->post()['sec_answer'];
+				$user->user_type = Yii::$app->request->post()['user_type'];
+				$user->authKey = "";
+				$user->accessToken = "";
+				$user->save();
+
+				return $this->redirect(['security/user-management']);
+			}
+
+        	return $this->render('create_user');
         }else{
         	echo "You don't have access here";die;	
         }
