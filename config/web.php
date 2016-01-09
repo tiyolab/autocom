@@ -69,6 +69,9 @@ if (YII_ENV_DEV) {
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
     ];
+    $config['modules']['front'] = [
+        'class' => 'app\modules\front\Front',
+    ];
 }
 
 return $config;

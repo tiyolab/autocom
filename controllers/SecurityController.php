@@ -156,6 +156,8 @@ class SecurityController extends SecureController{
 	public function actionCreateUser(){
 		if($this->isInsertAllowed()){
 			if(Yii::$app->request->post()){
+				print_r(Yii::$app->request->post());die;
+
 				$user = new User();
 				$user->username = Yii::$app->request->post()['username'];
 				$user->password = md5(Yii::$app->request->post()['password']);
