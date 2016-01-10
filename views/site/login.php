@@ -6,31 +6,39 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
+use app\assets\LoginAsset;
 
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+    <?php
+    echo "<br><br><br>";
+    ?>
 
+    <div id="logon">
+        <h1>Login</h1>
 
-<?php
-echo "<br><br><br>";
-?>
-
-<div id="login">
-    <h1>Login</h1>
-
-    <?php $form = ActiveForm::begin([
-        'id' => 'login-form',
+        <?php $form = ActiveForm::begin([
+            'id' => 'login-form',
         ]); ?>
 
-        <?= $form->field($model, 'username') ?>
+            <?= $form->field($model, 'username') ?>
 
-        <?= $form->field($model, 'password')->passwordInput() ?>
+            <?= $form->field($model, 'password')->passwordInput() ?>
 
-        <?= Html::submitButton('Login', ['class' => 'btn btn-primary col-lg-offset-10 ', 'name' => 'login-button', ]) ?>
+            <?= Html::submitButton('Login', ['class' => 'btn btn-primary col-lg-offset-10 ', 'name' => 'login-button', ]) ?>
 
         <?php ActiveForm::end(); ?>
     </div>
+</body>
+</html>
 
 
 <!-- <div class="site-login">

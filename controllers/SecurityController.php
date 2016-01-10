@@ -39,7 +39,8 @@ class SecurityController extends SecureController{
 			if(Yii::$app->request->post()){
 				$roleModel = new Role();
 				$roleModel->saveRole(Yii::$app->request->post());
-				return $this->render('role_list');
+				/*return $this->render('role_list');*/
+				return $this->redirect(['security/role-management']);
 			}
 
         	return $this->render('create_role');
@@ -60,7 +61,8 @@ class SecurityController extends SecureController{
 				$roleModel = new Role();
 				$roleModel->updateRole(Yii::$app->request->get()['id'], Yii::$app->request->post());
 
-				return $this->render('role_list');
+				/*return $this->render('role_list');*/
+				return $this->redirect(['security/role-management']);
 			}
 
         	return $this->render('update_role');
@@ -75,7 +77,8 @@ class SecurityController extends SecureController{
 				RoleModule::deleteAll('role = '.Yii::$app->request->get()['id']);
 				Role::deleteAll('id = '.Yii::$app->request->get()['id']);
 
-				return $this->render('role_list');
+				/*return $this->render('role_list');*/
+				return $this->redirect(['security/role-management']);
 			}
 
         	return $this->render('role_list');
@@ -105,7 +108,8 @@ class SecurityController extends SecureController{
 				$userTypeModel->role = Yii::$app->request->post()['role'];
 				$userTypeModel->save();
 
-				return $this->render('user_type_list');
+				/*return $this->render('user_type_list');*/
+				return $this->redirect(['security/user-type-management']);
 			}
 
         	return $this->render('create_user_type');
@@ -122,7 +126,8 @@ class SecurityController extends SecureController{
 				$userTypeModel->role = Yii::$app->request->post()['role'];
 				$userTypeModel->update();
 
-				return $this->render('user_type_list');
+				/*return $this->render('user_type_list');*/
+				return $this->redirect(['security/user-type-management']);
 			}
 
         	return $this->render('update_user_type');
@@ -136,7 +141,8 @@ class SecurityController extends SecureController{
 			if(Yii::$app->request->get()){
 				UserType::deleteAll('id = '.Yii::$app->request->get()['id']);
 
-				return $this->render('user_type_list');
+				/*return $this->render('user_type_list');*/
+				return $this->redirect(['security/user-type-management']);
 			}
 
         	return $this->render('user_type_list');
@@ -182,7 +188,8 @@ class SecurityController extends SecureController{
 		        $user->accessToken = "";
 		        $user->update();
 
-				return $this->render('user_list');
+				/*return $this->render('user_list');*/
+				return $this->redirect(['security/user-management']);
 			}
 
         	return $this->render('update_user');
@@ -196,7 +203,8 @@ class SecurityController extends SecureController{
 			if(Yii::$app->request->get()){
 				User::deleteAll('id = '.Yii::$app->request->get()['id']);
 
-				return $this->render('user_list');
+				/*return $this->render('user_list');*/
+				return $this->redirect(['security/user-management']);
 			}
 
         	return $this->render('user_list');

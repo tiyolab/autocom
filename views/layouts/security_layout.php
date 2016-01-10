@@ -84,7 +84,7 @@ $page_id = $this->context->action->id;
 				</ul>
 			</div>
 		</div>
-		<a class="current logo hidden-xs" href="index.html"><i class="fa fa-rocket"></i></a>
+		<a class="current logo hidden-xs" href="<?=Yii::$app->urlManager->createUrl('site/portal')?>"><i class="fa fa-rocket"></i></a>
 		<h1>Dashboard</h1>
 	</div>
 	<div class="side">

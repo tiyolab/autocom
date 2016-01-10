@@ -7017,3 +7017,1983 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1452423749.815
     'REQUEST_TIME' => 1452423749
 ]
+2016-01-10 11:03:06 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:03:06 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-type-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54336'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452423786.492
+    'REQUEST_TIME' => 1452423786
+]
+2016-01-10 11:03:08 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:03:08 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54336'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452423788.291
+    'REQUEST_TIME' => 1452423788
+]
+2016-01-10 11:03:10 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:03:10 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-user?id=11'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54336'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452423790.737
+    'REQUEST_TIME' => 1452423790
+]
+2016-01-10 11:03:16 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:03:16 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-user?id=11'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54336'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452423796.028
+    'REQUEST_TIME' => 1452423796
+]
+2016-01-10 11:32:33 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:32:33 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-user?id=11'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54348'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425553.648
+    'REQUEST_TIME' => 1452425553
+]
+2016-01-10 11:32:38 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:32:38 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-user?id=11'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54348'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425558.487
+    'REQUEST_TIME' => 1452425558
+]
+2016-01-10 11:32:42 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:32:42 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-user?id=11'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54348'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425562.53
+    'REQUEST_TIME' => 1452425562
+]
+2016-01-10 11:33:01 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:33:01 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/role-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54353'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425581.25
+    'REQUEST_TIME' => 1452425581
+]
+2016-01-10 11:34:37 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:34:37 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/role-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54356'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425677.965
+    'REQUEST_TIME' => 1452425677
+]
+2016-01-10 11:34:45 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:34:45 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/detail-role?id=1'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54359'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425685.38
+    'REQUEST_TIME' => 1452425685
+]
+2016-01-10 11:34:52 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:34:52 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/role-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54362'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425692.055
+    'REQUEST_TIME' => 1452425692
+]
+2016-01-10 11:34:56 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:34:56 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-role?id=8'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54362'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425696.68
+    'REQUEST_TIME' => 1452425696
+]
+2016-01-10 11:34:59 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:34:59 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-role?id=8'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54362'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425699.281
+    'REQUEST_TIME' => 1452425699
+]
+2016-01-10 11:35:28 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:35:28 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/role-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54367'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425728.894
+    'REQUEST_TIME' => 1452425728
+]
+2016-01-10 11:35:34 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:35:34 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-role?id=1'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54370'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425734.352
+    'REQUEST_TIME' => 1452425734
+]
+2016-01-10 11:35:38 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:35:38 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/role-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54370'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425738.91
+    'REQUEST_TIME' => 1452425738
+]
+2016-01-10 11:36:43 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:36:43 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-type-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54373'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425803.562
+    'REQUEST_TIME' => 1452425803
+]
+2016-01-10 11:36:46 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:36:46 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/update-user-type?id=6'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54373'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425806.419
+    'REQUEST_TIME' => 1452425806
+]
+2016-01-10 11:36:53 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:36:53 [127.0.0.1][1][st1phudqiqt86qq54akv1fhj82][info][application] $_COOKIE = [
+    '_csrf' => 'cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0mdIwm8kyAtFH3lnGocK9eGemy-p1qJs\";}'
+    'PHPSESSID' => 'st1phudqiqt86qq54akv1fhj82'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-type-management'
+    'HTTP_COOKIE' => '_csrf=cc52471d5b8c1f681b96f8ebd1a2157c96331a34ee408fe37647a57dcf1e7b91a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220mdIwm8kyAtFH3lnGocK9eGemy-p1qJs%22%3B%7D; PHPSESSID=st1phudqiqt86qq54akv1fhj82; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54376'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425813.717
+    'REQUEST_TIME' => 1452425813
+]
+2016-01-10 11:38:09 [127.0.0.1][1][9896ckp9qbbijmh1s49007gnk7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:38:09 [127.0.0.1][1][9896ckp9qbbijmh1s49007gnk7][info][application] $_COOKIE = [
+    '_csrf' => '1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h\";}'
+    'PHPSESSID' => '9896ckp9qbbijmh1s49007gnk7'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/role-management'
+    'HTTP_COOKIE' => '_csrf=1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h%22%3B%7D; PHPSESSID=9896ckp9qbbijmh1s49007gnk7; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54380'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425889.038
+    'REQUEST_TIME' => 1452425889
+]
+2016-01-10 11:38:10 [127.0.0.1][1][9896ckp9qbbijmh1s49007gnk7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:38:10 [127.0.0.1][1][9896ckp9qbbijmh1s49007gnk7][info][application] $_COOKIE = [
+    '_csrf' => '1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h\";}'
+    'PHPSESSID' => '9896ckp9qbbijmh1s49007gnk7'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-management'
+    'HTTP_COOKIE' => '_csrf=1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h%22%3B%7D; PHPSESSID=9896ckp9qbbijmh1s49007gnk7; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54380'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425890.945
+    'REQUEST_TIME' => 1452425890
+]
+2016-01-10 11:38:12 [127.0.0.1][1][9896ckp9qbbijmh1s49007gnk7][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:38:12 [127.0.0.1][1][9896ckp9qbbijmh1s49007gnk7][info][application] $_COOKIE = [
+    '_csrf' => '1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h\";}'
+    'PHPSESSID' => '9896ckp9qbbijmh1s49007gnk7'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-type-management'
+    'HTTP_COOKIE' => '_csrf=1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h%22%3B%7D; PHPSESSID=9896ckp9qbbijmh1s49007gnk7; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54380'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452425892.803
+    'REQUEST_TIME' => 1452425892
+]
+2016-01-10 11:44:12 [127.0.0.1][-][apv3gh5o0a0lpddq0r2r2m9sa0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "asset/css/bootstrap.min.css".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('asset/css/boots...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 11:44:12 [127.0.0.1][-][apv3gh5o0a0lpddq0r2r2m9sa0][info][application] $_COOKIE = [
+    '_csrf' => '1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h\";}'
+    'PHPSESSID' => 'apv3gh5o0a0lpddq0r2r2m9sa0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/site/login'
+    'HTTP_COOKIE' => '_csrf=1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h%22%3B%7D; PHPSESSID=apv3gh5o0a0lpddq0r2r2m9sa0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54392'
+    'REDIRECT_URL' => '/autocom/web/asset/css/bootstrap.min.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/asset/css/bootstrap.min.css'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452426252.775
+    'REQUEST_TIME' => 1452426252
+]
+2016-01-10 11:48:17 [127.0.0.1][-][apv3gh5o0a0lpddq0r2r2m9sa0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\assets\LoginAsset' not found' in /var/www/autocom/views/layouts/login_layout.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-01-10 11:48:17 [127.0.0.1][-][apv3gh5o0a0lpddq0r2r2m9sa0][info][application] $_COOKIE = [
+    '_csrf' => '1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h\";}'
+    'PHPSESSID' => 'apv3gh5o0a0lpddq0r2r2m9sa0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=1d064149e73374f49977717c5fa0c8248dbd96605d2318458c9db5979bf16aafa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mC1N1ckuNmr82lNpwYhUY_JXRLT92c7h%22%3B%7D; PHPSESSID=apv3gh5o0a0lpddq0r2r2m9sa0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54404'
+    'REDIRECT_URL' => '/autocom/web/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/site/login'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452426497.456
+    'REQUEST_TIME' => 1452426497
+]
+2016-01-10 12:25:06 [127.0.0.1][1][qs56r1e30o5sepf7853ruosn52][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 12:25:06 [127.0.0.1][1][qs56r1e30o5sepf7853ruosn52][info][application] $_COOKIE = [
+    '_csrf' => 'e45ae413d13269a931ecc2605d15c0f42db08e40c88b8619ff9f32a2fd7b8acda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tn7s5s2pZy_5dL09QfvhN1Jwyz_0Lf9Y\";}'
+    'PHPSESSID' => 'qs56r1e30o5sepf7853ruosn52'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-type-management'
+    'HTTP_COOKIE' => '_csrf=e45ae413d13269a931ecc2605d15c0f42db08e40c88b8619ff9f32a2fd7b8acda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tn7s5s2pZy_5dL09QfvhN1Jwyz_0Lf9Y%22%3B%7D; PHPSESSID=qs56r1e30o5sepf7853ruosn52; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54671'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452428706.164
+    'REQUEST_TIME' => 1452428706
+]
+2016-01-10 12:25:07 [127.0.0.1][1][qs56r1e30o5sepf7853ruosn52][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 12:25:07 [127.0.0.1][1][qs56r1e30o5sepf7853ruosn52][info][application] $_COOKIE = [
+    '_csrf' => 'e45ae413d13269a931ecc2605d15c0f42db08e40c88b8619ff9f32a2fd7b8acda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tn7s5s2pZy_5dL09QfvhN1Jwyz_0Lf9Y\";}'
+    'PHPSESSID' => 'qs56r1e30o5sepf7853ruosn52'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-management'
+    'HTTP_COOKIE' => '_csrf=e45ae413d13269a931ecc2605d15c0f42db08e40c88b8619ff9f32a2fd7b8acda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tn7s5s2pZy_5dL09QfvhN1Jwyz_0Lf9Y%22%3B%7D; PHPSESSID=qs56r1e30o5sepf7853ruosn52; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54671'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452428707.834
+    'REQUEST_TIME' => 1452428707
+]
+2016-01-10 12:26:43 [127.0.0.1][1][qs56r1e30o5sepf7853ruosn52][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "security/assets/images/avatar-small.jpg".' in /var/www/autocom/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('security/assets...', Array)
+#1 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/autocom/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/autocom/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/autocom/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-01-10 12:26:43 [127.0.0.1][1][qs56r1e30o5sepf7853ruosn52][info][application] $_COOKIE = [
+    '_csrf' => 'e45ae413d13269a931ecc2605d15c0f42db08e40c88b8619ff9f32a2fd7b8acda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tn7s5s2pZy_5dL09QfvhN1Jwyz_0Lf9Y\";}'
+    'PHPSESSID' => 'qs56r1e30o5sepf7853ruosn52'
+    '_identity' => 'c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea:2:{i:0;s:9:\"_identity\";i:1;s:14:\"[1,\"\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'session.user' => [
+        'login' => true
+        'username' => 'tiyo'
+        'email' => 'tiyo.lab@gmail.com'
+        'user_type' => 'super admin'
+        'hak_akses' => [
+            1 => '2,3,1,4'
+            2 => '1,4,2,3'
+            3 => '3,1,4,2'
+            4 => '2,3,1,4'
+            5 => '1,4,2,3'
+            6 => '3,1,4,2'
+            7 => '1,4,2,3'
+            8 => '3,1,4,2'
+        ]
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:39.0) Gecko/20100101 Firefox/39.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/autocom/web/security/user-management'
+    'HTTP_COOKIE' => '_csrf=e45ae413d13269a931ecc2605d15c0f42db08e40c88b8619ff9f32a2fd7b8acda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tn7s5s2pZy_5dL09QfvhN1Jwyz_0Lf9Y%22%3B%7D; PHPSESSID=qs56r1e30o5sepf7853ruosn52; _identity=c9e3697fadaef5353f4dec673f8214750f74b1d9de75d106d310a645c75a92dea%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/autocom/web/index.php'
+    'REMOTE_PORT' => '54675'
+    'REDIRECT_URL' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/autocom/web/security/assets/images/avatar-small.jpg'
+    'SCRIPT_NAME' => '/autocom/web/index.php'
+    'PHP_SELF' => '/autocom/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1452428803.613
+    'REQUEST_TIME' => 1452428803
+]

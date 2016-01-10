@@ -55,7 +55,7 @@ body{
   margin:0 auto;
 }
 
-#login h1{
+#logon h1{
   background:#3399cc;
   padding:20px 0;
   font-size:140%;
@@ -69,14 +69,14 @@ form{
   padding:6% 4%;
 }
 
-input[type="email"],input[type="password"]{
-  width:92%;
+input[type="text"],input[type="password"]{
+  width:100%;
   background:#fff;
   margin-bottom:4%;
   border:1px solid #ccc;
-  padding:4%;
+  padding-left:4%;
   font-family:'Open Sans',sans-serif;
-  font-size:95%;
+  font-size:100%;
   color:#555;
 }
 
