@@ -112,7 +112,17 @@ class SiteController extends Controller
 
     public function actionPortal()
     {
+
         $this->layout = "portal_layout";
-        return $this->render('portal');
+
+        $session = Yii::$app->session;
+        $session->open();
+
+        if(!$session['session.user']['login']){
+            return $this->redirect(['site/login']);
+        }else{
+            return $this->render('portal');
+        }
+        $session->close();
     }
 }
