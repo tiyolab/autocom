@@ -54,8 +54,14 @@ class Surat extends \yii\db\ActiveRecord
         ];
     }
 
-    public function showalldata(){
-        $sql = "select nomor_surat, id_jenis_surat, id_pengirim, tanggal_surat, LEFT(perihal,25) as perihal, LEFT(isi_surat,25) as isi_surat from surat";
+    public function showsuratmasuk($id){
+        //$sql = "select nomor_surat, id_jenis_surat, id_pengirim, tanggal_surat, LEFT(perihal,25) as perihal, LEFT(isi_surat,25) as isi_surat from surat";
+        $sql = "select * from surat where id_penerima = ". $id;
+        return self::findBySql($sql)->asArray()->all();
+    }
+
+    public function showsuratkeluar($id){
+        $sql = "select * from surat where id_pengirim = ". $id;
         return self::findBySql($sql)->asArray()->all();
     }
 
@@ -77,6 +83,11 @@ class Surat extends \yii\db\ActiveRecord
 
     public function detailSurat($id){
         $sql = "select * from surat where nomor_surat = '". $id."' ";
+        return self::findBySql($sql)->asArray()->all();
+    }
+
+    public function showsuratsetuju(){
+        $sql = "select * from surat where persetujuan = 0";
         return self::findBySql($sql)->asArray()->all();
     }
 }

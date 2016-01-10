@@ -1,11 +1,16 @@
 <?php
 
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
 use app\models\Surat;
 
 $datasurat = new Surat();
+
+$session = Yii::$app->session;
+$session->open();
+$user_session = $session['session.user'];
+$session->close();
+
+$id = $user_session['login'];
 
 ?>
 <div class="widget widget-blue">
@@ -22,18 +27,16 @@ $datasurat = new Surat();
             <th>Pengirim</th>
             <th>Tanggal</th>
             <th>Perihal</th>
-            <th>Isi</th>
             <th>Action</th>
         </tr>
     <?php
-        foreach( $datasurat -> showalldata() as $item => $value){
+        foreach( $datasurat -> showsuratmasuk($id) as $item => $value){
             echo "<tr>";
             echo "<td>".$value['nomor_surat']."</td>";
             echo "<td>".$value['id_jenis_surat']."</td>";
             echo "<td>".$value['id_pengirim']."</td>";
             echo "<td>".$value['tanggal_surat']."</td>";
             echo "<td>".$value['perihal']."</td>";
-            echo "<td>".$value['isi_surat']."</td>";
             echo "<td>".Html::a("Delete", Yii::$app->urlManager->createUrl(["surat-arsip/delete", "id"=>$value["nomor_surat"]]),[])." | ".
                 Html::a("Print", Yii::$app->urlManager->createUrl(["surat-arsip/print", "id"=>$value["nomor_surat"]]),[])
                 ."</td>";

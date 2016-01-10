@@ -40,48 +40,7 @@ if(class_exists('yii\debug\Module')){
 
 <div class="all-wrapper fixed-header left-menu hide-side-menu">
 	<div class="page_header">
-		<div class="header-links hidden-xs">
-			<div class="top-search-w pull-right">
-				<input type="text" class="top-search" placeholder="Search"/>
-			</div>
-			<div class="dropdown hidden-sm hidden-xs">
-				<a href="#" data-toggle="dropdown" class="header-link"><i class="fa fa-bolt"></i> User Alerts <span class="badge alert-animated">5</span></a>
-
-				<ul class="dropdown-menu dropdown-inbar dropdown-wide">
-					<li><a href="#"><span class="label label-warning">1 min</span> <i class="fa fa-bell"></i> New Mail Received</a></li>
-					<li><a href="#"><span class="label label-warning">4 min</span> <i class="fa fa-fire"></i> Server Crash</a></li>
-					<li><a href="#"><span class="label label-warning">12 min</span> <i class="fa fa-flag-o"></i> Pending Alert</a></li>
-					<li><a href="#"><span class="label label-warning">15 min</span> <i class="fa fa-smile-o"></i> User Signed Up</a></li>
-				</ul>
-			</div>
-			<div class="dropdown hidden-sm hidden-xs">
-				<a href="#" data-toggle="dropdown" class="header-link"><i class="fa fa-cog"></i> Settings</a>
-
-				<ul class="dropdown-menu dropdown-inbar">
-					<li><a href="#"><span class="label label-warning">2</span> <i class="fa fa-envelope"></i> Messages</a></li>
-					<li><a href="#"><span class="label label-warning">4</span> <i class="fa fa-users"></i> Friends</a></li>
-					<li><a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
-					<li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
-				</ul>
-			</div>
-
-			<div class="dropdown">
-				<a href="#" class="header-link clearfix" data-toggle="dropdown">
-					<div class="avatar">
-						<img src="assets/images/avatar-small.jpg" alt="">
-					</div>
-					<div class="user-name-w">
-						Lionel Messi <i class="fa fa-caret-down"></i>
-					</div>
-				</a>
-				<ul class="dropdown-menu dropdown-inbar">
-					<li><a href="#"><span class="label label-warning">2</span> <i class="fa fa-envelope"></i> Messages</a></li>
-					<li><a href="#"><span class="label label-warning">4</span> <i class="fa fa-users"></i> Friends</a></li>
-					<li><a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
-					<li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
-				</ul>
-			</div>
-		</div>
+		<div class="header-links hidden-xs"></div>
 		<a class="current logo hidden-xs" href=""><i class="fa fa-rocket"></i></a>
 		<h1>SURAT dan ARSIP</h1>
 	</div>

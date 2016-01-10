@@ -146,4 +146,9 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
         $this->accessToken = "";
         $this->save();
     }
+
+    public function showalluser($id){
+        $sql = "select id, username, email from user where id != ". $id;
+        return self::findBySql($sql)->asArray()->all();
+    }
 }
