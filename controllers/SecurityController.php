@@ -156,23 +156,50 @@ class SecurityController extends SecureController{
 	public function actionCreateUser(){
 		if($this->isInsertAllowed()){
 			if(Yii::$app->request->post()){
-				print_r(Yii::$app->request->post());die;
 
-				$user = new User();
-				$user->username = Yii::$app->request->post()['username'];
-				$user->password = md5(Yii::$app->request->post()['password']);
-				$user->email = Yii::$app->request->post()['email'];
-				$user->sec_question = Yii::$app->request->post()['sec_question'];
-				$user->sec_answer = Yii::$app->request->post()['sec_answer'];
-				$user->user_type = Yii::$app->request->post()['user_type'];
-				$user->authKey = "";
-				$user->accessToken = "";
-				$user->save();
+				$new_user = new User();
+				$new_user->saveBySQL(Yii::$app->request->post());
 
 				return $this->redirect(['security/user-management']);
 			}
 
         	return $this->render('create_user');
+        }else{
+        	echo "You don't have access here";die;	
+        }
+	}
+
+	public function actionUpdateUser(){
+		if($this->isUpdateAllowed()){
+			if(Yii::$app->request->post()){
+				$user = User::findOne(Yii::$app->request->get()['id']);
+				$user->username = Yii::$app->request->post()['username'];
+		        $user->email = Yii::$app->request->post()['email'];
+		        $user->sec_question = Yii::$app->request->post()['sec_question'];
+		        $user->sec_answer = Yii::$app->request->post()['sec_answer'];
+		        $user->user_type = Yii::$app->request->post()['user_type'];
+		        $user->authKey = "";
+		        $user->accessToken = "";
+		        $user->update();
+
+				return $this->render('user_list');
+			}
+
+        	return $this->render('update_user');
+        }else{
+        	echo "You don't have access here";die;	
+        }
+	}
+
+	public function actionDeleteUser(){
+		if($this->isDeleteAllowed()){
+			if(Yii::$app->request->get()){
+				User::deleteAll('id = '.Yii::$app->request->get()['id']);
+
+				return $this->render('user_list');
+			}
+
+        	return $this->render('user_list');
         }else{
         	echo "You don't have access here";die;	
         }

@@ -4,8 +4,11 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 use app\models\UserType;
+use app\models\User;
+
+$user = User::find()->where(['id'=>Yii::$app->request->get()['id']])->asArray()->one();
 ?>
-<h3>Create new user type</h3>
+<h3>Update user <?=$user['username']?></h3>
 <?php $form = ActiveForm::begin([
 	'id' => 'create-user-type-form',
 	'options' => ['class' => 'form-horizontal', 'data-toggle'=>'validator'],
@@ -17,31 +20,25 @@ use app\models\UserType;
 
 	<div class="form-group">
 		<div class="col-lg-offset-1 col-lg-11">
-			<?= Html::input("text", "username", null, ["placeholder"=>"Username", "required"=>"required"]) ?>
+			<?= Html::input("text", "username", $user['username'], ["placeholder"=>"Username", "required"=>"required"]) ?>
 		</div>
 	</div>
 
 	<div class="form-group">
 		<div class="col-lg-offset-1 col-lg-11">
-			<?= Html::input("password", "password", null, ["placeholder"=>"Password", "required"=>"required"]) ?>
+			<?= Html::input("email", "email", $user['email'], ["placeholder"=>"Email", "required"=>"required"]) ?>
 		</div>
 	</div>
 
 	<div class="form-group">
 		<div class="col-lg-offset-1 col-lg-11">
-			<?= Html::input("email", "email", null, ["placeholder"=>"Email", "required"=>"required"]) ?>
+			<?= Html::input("text", "sec_question", $user['sec_question'], ["required"=>"required"]) ?>
 		</div>
 	</div>
 
 	<div class="form-group">
 		<div class="col-lg-offset-1 col-lg-11">
-			<?= Html::input("text", "sec_question", "nama project?", ["required"=>"required"]) ?>
-		</div>
-	</div>
-
-	<div class="form-group">
-		<div class="col-lg-offset-1 col-lg-11">
-			<?= Html::input("text", "sec_answer", "autocom", ["required"=>"required"]) ?>
+			<?= Html::input("text", "sec_answer", $user['sec_answer'], ["required"=>"required"]) ?>
 		</div>
 	</div>
 
@@ -53,6 +50,9 @@ use app\models\UserType;
 			<?php
 				foreach (UserType::find()->asArray()->all() as $key => $value) {
 					echo "<li>";
+					if($value["id"] == $user['user_type'])
+						echo Html::radio("user_type", true, ["label"=>$value["name"], "value"=>$value["id"]]);
+					else
 						echo Html::radio("user_type", false, ["label"=>$value["name"], "value"=>$value["id"]]);
 					echo "</li>";
 				}

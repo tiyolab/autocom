@@ -67,32 +67,40 @@ class SiteController extends Controller
 
     public function actionLogin()
     {
-        $model = new LoginForm();
-        $postData = Yii::$app->request->post();
-        if ($model->load($postData) && $model->login()) {
-            $userData = VUserRole::find()->where(["id_user"=>Yii::$app->user->getId()])->asArray()->all();
-            $tmp = array();
-            foreach ($userData as $key => $value) {
-                $tmp[$value['module']] =$value['hak_akses'];
+        $session = Yii::$app->session;
+        $session->open();
+
+        if(!$session['session.user']['login']){
+            $model = new LoginForm();
+            $postData = Yii::$app->request->post();
+            if ($model->load($postData) && $model->login()) {
+                $userData = VUserRole::find()->where(["id_user"=>Yii::$app->user->getId()])->asArray()->all();
+                $tmp = array();
+                foreach ($userData as $key => $value) {
+                    $tmp[$value['module']] =$value['hak_akses'];
+                }
+
+                print_r(Yii::$app->user->getId());die;
+                $session['session.user'] = array(
+                        "login"=>true,
+                        "username"=>Yii::$app->user->identity->username,
+                        "email"=>Yii::$app->user->identity->email,
+                        "user_type"=>$userData[0]['user_type'],
+                        "hak_akses"=>$tmp,
+                    );
+                
+                return $this->redirect(['site/portal']);
             }
 
-            $session = Yii::$app->session;
-            $session->open();
-            $session['session.user'] = array(
-                    "login"=>true,
-                    "username"=>Yii::$app->user->identity->username,
-                    "email"=>Yii::$app->user->identity->email,
-                    "user_type"=>$userData[0]['user_type'],
-                    "hak_akses"=>$tmp,
-                );
-            $session->close();
+            $this->layout = 'login_layout';
+            return $this->render('login', [
+                'model' => $model,
+            ]);
+        }else{
+            
             return $this->redirect(['site/portal']);
         }
-
-        $this->layout = 'login_layout';
-        return $this->render('login', [
-            'model' => $model,
-        ]);
+        $session->close();
     }
 
     public function actionLogout()

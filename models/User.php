@@ -37,12 +37,9 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     public function rules()
     {
         return [
-            [['username', 'password', 'authKey', 'accessToken', 'user_type', 'email', 'sec_question', 'sec_answer'], 'required'],
-            [['user_type'], 'integer'],
-            [['sec_question', 'sec_answer'], 'string'],
-            [['username', 'authKey', 'accessToken'], 'string', 'max' => 100],
+            /*[['username', 'password', 'user_type', 'email', 'sec_question', 'sec_answer'], 'required'],
             [['password'], 'string', 'max' => 100],
-            [['email'], 'string', 'max' => 50]
+            [['email'], 'string', 'max' => 50]*/
         ];
     }
 
@@ -136,5 +133,17 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
         $sql = "select user.username, user.id, user.email, user_type.id as id_user_type, user_type.name as user_type_name from ".$this->tableName().", user_type where user_type.id = user.user_type";
         $model = self::findBySql($sql)->asArray()->all();
         return $model;
+    }
+
+    public function saveBySQL($data){
+        $this->username = $data['username'];
+        $this->password = md5($data['password']);
+        $this->email = $data['email'];
+        $this->sec_question = $data['sec_question'];
+        $this->sec_answer = $data['sec_answer'];
+        $this->user_type = $data['user_type'];
+        $this->authKey = "";
+        $this->accessToken = "";
+        $this->save();
     }
 }

@@ -16,7 +16,7 @@ $session->close();
 <a href="<?= Yii::$app->urlManager->createUrl("site/logout") ?>" data-method="post">Logout</a><br>
 
 <?php foreach ($module as $key => $value) {
-	if(isset($user_session['hak_akses'][$value['id']]) && !empty(isset($user_session['hak_akses'][$value['id']]))){
+	if(isset($user_session['hak_akses'][$value['id']]) && !empty($user_session['hak_akses'][$value['id']])){
 		echo Html::a($value['name'], Yii::$app->urlManager->createUrl(strtolower($value['name'])), ["disabled"=>false, "class"=>["btn", "btn-primary"], "style"=>["color"=>"white"]]);
 	}else{
 		echo Html::a($value['name'], null, ["disabled"=>true, "class"=>["btn", "btn-primary"], "style"=>["color"=>"black"]]);
