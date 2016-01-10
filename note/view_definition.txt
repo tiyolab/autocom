@@ -13,4 +13,4 @@ create or replace view v_user_role as
 		user_type.role = role.id and
 		role_module.role = role.id and
 		role_module.module = module.id
-	group by role_module.module, role_module.role
+	group by role_module.module, role.id, user.id

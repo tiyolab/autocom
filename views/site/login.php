@@ -10,7 +10,30 @@ use yii\bootstrap\ActiveForm;
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-login">
+
+
+<?php
+echo "<br><br><br>";
+?>
+
+<div id="login">
+    <h1>Login</h1>
+
+    <?php $form = ActiveForm::begin([
+        'id' => 'login-form',
+        ]); ?>
+
+        <?= $form->field($model, 'username') ?>
+
+        <?= $form->field($model, 'password') ?>
+
+        <?= Html::submitButton('Login', ['class' => 'btn btn-primary col-lg-offset-10 ', 'name' => 'login-button', ]) ?>
+
+        <?php ActiveForm::end(); ?>
+    </div>
+
+
+<!-- <div class="site-login">
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>Please fill out the following fields to login:</p>
@@ -39,4 +62,4 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
 
     <?php ActiveForm::end(); ?>
-</div>
+</div> -->

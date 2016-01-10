@@ -111,22 +111,6 @@ $page_id = $this->context->action->id;
 
 			</ul>
 		</div>
-		<div class="sub-sidebar-wrapper">
-			<ul class="nav">
-				<?php
-				echo Nav::widget([
-					'items' => [
-						['label' => 'Buat Arsip', 'url' => ['/surat-arsip/buat-arsip']],
-						['label' => 'Arsip', 'url' => ['/surat-arsip/arsip']],
-						['label' => 'Buat Memo', 'url' => ['/surat-arsip/buat-memo']],
-						['label' => 'Memo Masuk', 'url' => ['/surat-arsip/memo-masuk']],
-						['label' => 'Memo Keluar', 'url' => ['/surat-arsip/memo-keluar']],
-
-					],
-				]);
-				?>
-			</ul>
-		</div>
 	</div>
 	<div class="main-content">
 		<?=$content;   ?>

@@ -4,12 +4,13 @@
 /* @var $content string */
 
 use yii\helpers\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
-use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use yii\bootstrap\Nav;
 
 AppAsset::register($this);
+/*$this->registerJsFile('@web/js/login.js');
+$this->registerCssFile('@web/css/site.css');
+$this->registerCssFile('@web/css/login.css');*/
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
