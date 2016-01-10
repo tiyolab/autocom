@@ -80,7 +80,7 @@ class SiteController extends Controller
                     $tmp[$value['module']] =$value['hak_akses'];
                 }
 
-                print_r(Yii::$app->user->getId());die;
+                /*print_r(Yii::$app->user->getId());die;*/
                 $session['session.user'] = array(
                         "login"=>true,
                         "username"=>Yii::$app->user->identity->username,
