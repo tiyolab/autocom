@@ -43,10 +43,13 @@ $page_id = $this->context->action->id;
 <div class="all-wrapper fixed-header left-menu hide-side-menu">
 	<div class="page_header">
 		<div class="header-links hidden-xs">
-			<div class="top-search-w pull-right">
-				<input type="text" class="top-search" placeholder="Search"/>
-			</div>
 			<div class="dropdown hidden-sm hidden-xs">
+				<a href="<?= Yii::$app->urlManager->createUrl("site/logout") ?>" data-method="post" data-toggle="dropdown" class="header-link"><i class="fa fa-power-off"></i> Logout </a>
+			</div>
+			<!-- <div class="top-search-w pull-right">
+				<input type="text" class="top-search" placeholder="Search"/>
+			</div> -->
+			<!-- <div class="dropdown hidden-sm hidden-xs">
 				<a href="#" data-toggle="dropdown" class="header-link"><i class="fa fa-bolt"></i> User Alerts <span class="badge alert-animated">5</span></a>
 
 				<ul class="dropdown-menu dropdown-inbar dropdown-wide">
@@ -82,10 +85,10 @@ $page_id = $this->context->action->id;
 					<li><a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
 					<li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
 				</ul>
-			</div>
+			</div> -->
 		</div>
 		<a class="current logo hidden-xs" href="<?=Yii::$app->urlManager->createUrl('site/portal')?>"><i class="fa fa-rocket"></i></a>
-		<h1>Dashboard</h1>
+		<h1>Security Management</h1>
 	</div>
 	<div class="side">
 		<div class="sidebar-wrapper">
@@ -93,19 +96,19 @@ $page_id = $this->context->action->id;
 
 				<li class="<?php echo ($page_id === "role-management") ? "current" : ""; ?>" >
 					<a href="<?php echo Yii::$app->urlManager->createUrl('security/role-management'); ?>" class="current" data-toggle="tooltip" data-placement="right" title="" data-original-title="Role Management">
-						<i class="fa fa-home"></i>
+						<i class="fa fa-windows"></i>
 					</a>
 				</li>
 				
 				<li class="<?php echo ($page_id === "user-type-management") ? "current" : ""; ?>" >
 					<a href="<?php echo Yii::$app->urlManager->createUrl('security/user-type-management'); ?>" class="current" data-toggle="tooltip" data-placement="right" title="" data-original-title="User Type Management">
-						<i class="fa fa-home"></i>
+						<i class="fa fa-group"></i>
 					</a>
 				</li>
 
 				<li class="<?php echo ($page_id === "user-management") ? "current" : ""; ?>">
 					<a href="<?php echo Yii::$app->urlManager->createUrl('security/user-management'); ?>" class="current" data-toggle="tooltip" data-placement="right" title="" data-original-title="User Management">
-						<i class="fa fa-home"></i>
+						<i class="fa  fa-user"></i>
 					</a>
 				</li>
 
