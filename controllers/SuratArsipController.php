@@ -5,38 +5,42 @@ namespace app\controllers;
 use Yii;
 use app\controllers\SecureController;
 use mPDF;
+use app\models\Surat;
 
 class SuratArsipController extends SecureController{
 
 	public $layout = "suratarsip_layout";
+//	public $data = new Surat();
 
 	public function actionIndex() {
-//		return $this->render('index');
-		$mpdf = new mPDF;
-		$mpdf->WriteHTML('<p>Hallo World</p>');
-		$mpdf->Output();
-		exit;
+		return $this->render('index');
+
+//		$mpdf = new mPDF;
+//		$mpdf->WriteHTML('<p>Hallo World</p>');
+//		$mpdf->Output();
 	}
 
 	// Membuat surat
 	public function actionBuatSurat(){
-		if($this->isSelectAllowed()){
+		if($this->isInsertAllowed()){
+			if(Yii::$app->request->post()){
+				$suratModel = new Surat();
+				$suratModel->insertSurat(Yii::$app->request->post()['Surat']);
+				echo "berhasil";
+			}
 			return $this->render('buat_surat');
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Melihat surat masuk
 	public function actionSuratMasuk(){
 		if($this->isSelectAllowed()){
-
 			return $this->render('surat_masuk');
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Melihat surat keluar
@@ -46,7 +50,6 @@ class SuratArsipController extends SecureController{
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Fitur persetujuan surat untuk manajer
@@ -56,7 +59,6 @@ class SuratArsipController extends SecureController{
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Melihat memo masuk dan terdapat tombol Buat Memo
@@ -66,7 +68,6 @@ class SuratArsipController extends SecureController{
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Membuat memo
@@ -76,7 +77,6 @@ class SuratArsipController extends SecureController{
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Melihat memo masuk dan terdapat tombol Buat Memo
@@ -86,7 +86,6 @@ class SuratArsipController extends SecureController{
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Melihat daftar arsip sesuai user rule
@@ -96,7 +95,6 @@ class SuratArsipController extends SecureController{
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
 	// Membuat arsip
@@ -106,9 +104,26 @@ class SuratArsipController extends SecureController{
 		}else{
 			echo "You don't have access here";die;
 		}
-
 	}
 
+	public function actionDelete($id){
+		if($this->isDeleteAllowed()){
+			if(Yii::$app->request->get()){
+				Surat::deleteAll('nomor_surat='.Yii::$app->request->get()['id'] );
+				$this->redirect('surat-masuk');
+			}
+		}
+	}
+
+	public function actionPrint(){
+		if($this->isSelectAllowed()){
+			$mpdf = new mPDF;
+			$mpdf->WriteHTML($this->renderPartial('printsurat'));
+			$mpdf->Output();
+		}else{
+			echo "You don't have access here";die;
+		}
+	}
 }
 
 ?>

@@ -3,7 +3,6 @@
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
-
 use app\models\Surat;
 
 $datasurat = new Surat();
@@ -24,6 +23,7 @@ $datasurat = new Surat();
             <th>Tanggal</th>
             <th>Perihal</th>
             <th>Isi</th>
+            <th>Action</th>
         </tr>
     <?php
         foreach( $datasurat -> showalldata() as $item => $value){
@@ -34,6 +34,9 @@ $datasurat = new Surat();
             echo "<td>".$value['tanggal_surat']."</td>";
             echo "<td>".$value['perihal']."</td>";
             echo "<td>".$value['isi_surat']."</td>";
+            echo "<td>".Html::a("Delete", Yii::$app->urlManager->createUrl(["surat-arsip/delete", "id"=>$value["nomor_surat"]]),[])." | ".
+                Html::a("Print", Yii::$app->urlManager->createUrl(["surat-arsip/print", "id"=>$value["nomor_surat"]]),[])
+                ."</td>";
             echo "</tr>";
         }
     ?>

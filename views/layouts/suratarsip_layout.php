@@ -82,30 +82,30 @@ if(class_exists('yii\debug\Module')){
 				</ul>
 			</div>
 		</div>
-		<a class="current logo hidden-xs" href="index.html"><i class="fa fa-rocket"></i></a>
+		<a class="current logo hidden-xs" href=""><i class="fa fa-rocket"></i></a>
 		<h1>SURAT dan ARSIP</h1>
 	</div>
 	<div class="side">
 		<div class="sidebar-wrapper">
 			<ul>
-				<li class='current'>
-					<a href="<?php echo Url::to('surat-arsip/buat-surat') ?>" class="current" data-toggle="tooltip" data-placement="right" title="" data-original-title="Buat Surat">
+				<li>
+					<a href="<?php echo Url::to(['buat-surat']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Buat Surat">
 						<i class="fa fa-home"></i>
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo Url::to('surat-arsip/surat-masuk') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Masuk">
+					<a href="<?php echo Url::to(['surat-masuk']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Masuk">
 						<i class="fa fa-file-text-o"></i>
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo Url::to('surat-arsip/surat-keluar') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Keluar">
+					<a href="<?php echo Url::to(['surat-keluar']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Keluar">
 						<span class="badge"></span>
 						<i class="fa fa-code-fork"></i>
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo Url::to('surat-arsip/persetujuan-surat') ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Persetujuan Surat">
+					<a href="<?php echo Url::to(['persetujuan-surat']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Persetujuan Surat">
 						<i class="fa fa-bar-chart-o"></i>
 					</a>
 				</li>
@@ -114,7 +114,6 @@ if(class_exists('yii\debug\Module')){
 						<i class="fa fa-th"></i>
 					</a>
 				</li>
-
 			</ul>
 		</div>
 		<div class="sub-sidebar-wrapper">
@@ -127,7 +126,6 @@ if(class_exists('yii\debug\Module')){
 						['label' => 'Buat Memo', 'url' => ['/surat-arsip/buat-memo']],
 						['label' => 'Memo Masuk', 'url' => ['/surat-arsip/memo-masuk']],
 						['label' => 'Memo Keluar', 'url' => ['/surat-arsip/memo-keluar']],
-
 					],
 				]);
 				?>
@@ -135,7 +133,7 @@ if(class_exists('yii\debug\Module')){
 		</div>
 	</div>
 	<div class="main-content">
-		<?=$content;   ?>
+		<?= $content; ?>
 	</div>
 	<div class="page-footer">
 		© 2013 Saturn Admin Template.
