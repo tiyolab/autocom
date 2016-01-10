@@ -25,7 +25,7 @@ echo "<br><br><br>";
 
         <?= $form->field($model, 'username') ?>
 
-        <?= $form->field($model, 'password') ?>
+        <?= $form->field($model, 'password')->passwordInput() ?>
 
         <?= Html::submitButton('Login', ['class' => 'btn btn-primary col-lg-offset-10 ', 'name' => 'login-button', ]) ?>
 

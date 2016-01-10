@@ -32,7 +32,7 @@ class AppAsset extends AssetBundle
         'assets/css/plugins/jquery.pnotify.default.css',
         'assets/css/plugins/jquery.pnotify.default.icons.css',
         'assets/css/app.css',
-        'css/login.css',
+        /*'css/login.css',*/
     ];
     public $js = [
         'assets/js/ajax/jquery.min.js',
@@ -71,7 +71,7 @@ class AppAsset extends AssetBundle
         'assets/js/plugins/jscrollpane.min.js',
         'assets/js/application.js',
         'assets/js/template_js/dashboard.js',
-        'js/login.js',
+        /*'js/login.js',*/
     ];
     public $depends = [
         'yii\web\YiiAsset',
