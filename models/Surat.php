@@ -61,7 +61,7 @@ class Surat extends \yii\db\ActiveRecord
 FROM surat s, user u, jenis_surat j
 
 WHERE s.id_jenis_surat = j.id_jenis_surat and s.id_penerima  !=  ". $id ." and s.id_penerima = u.id";
-        echo $sql;
+
         return self::findBySql($sql)->asArray()->all();
     }
 
@@ -71,7 +71,7 @@ WHERE s.id_jenis_surat = j.id_jenis_surat and s.id_penerima  !=  ". $id ." and s
 FROM surat s, user u, jenis_surat j
 
 WHERE s.id_jenis_surat = j.id_jenis_surat and s.id_pengirim  !=  ". $id ." and s.id_pengirim = u.id";
-        echo $sql;
+
         return self::findBySql($sql)->asArray()->all();
     }
 
@@ -99,5 +99,10 @@ WHERE s.id_jenis_surat = j.id_jenis_surat and s.id_pengirim  !=  ". $id ." and s
     public function showsuratsetuju(){
         $sql = "select * from surat where persetujuan = 0";
         return self::findBySql($sql)->asArray()->all();
+    }
+
+    public function setujuisurat($id){
+        $sql = "update surat set persetujuan = 1 where nomor_surat = '". $id."' ";
+        return Yii::$app->db->createCommand($sql)->bindValue('nomor_surat', $id)->execute();
     }
 }

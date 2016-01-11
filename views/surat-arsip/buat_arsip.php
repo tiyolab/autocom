@@ -13,7 +13,6 @@ $form = ActiveForm::begin([
 
 <?= $form->field($model, 'id_arsip')?>
 <?= $form->field($model, 'nama') ?>
-<?= $form->field($model, 'mime') ?>
 <?= $form->field($model, 'file') ?>
 
 <?= Html::submitButton('Simpan', ['class' => 'btn btn-success', 'name' => 'send-button ' ]) ?>

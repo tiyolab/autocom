@@ -53,6 +53,11 @@ class SuratArsipController extends SecureController{
 	// Fitur persetujuan surat untuk manajer
 	public function actionPersetujuanSurat(){
 		if($this->isSelectAllowed()){
+			if(Yii::$app->request->get()){
+				$suratModel = new Surat();
+				$suratModel -> setujuisurat(Yii::$app->request->get()['id']);
+				$this->redirect(['surat-arsip/persetujuan-surat']);
+			}
 			return $this->render('persetujuan_surat');
 		}else{
 			echo "You don't have access here";die;
@@ -127,7 +132,7 @@ class SuratArsipController extends SecureController{
 		if($this->isDeleteAllowed()){
 			if(Yii::$app->request->get()){
 				Surat::deleteAll('nomor_surat='.Yii::$app->request->get()['id'] );
-				$this->redirect('surat-masuk');
+				$this->redirect(['surat-arsip']);
 			}
 		}
 	}

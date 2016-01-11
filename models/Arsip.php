@@ -25,9 +25,10 @@ class Arsip extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
-    public function rules(){
+    public function rules()
+    {
         return [
-            [['nama', 'waktu_arsip', 'file', 'mime'], 'required'],
+            [['nama', 'waktu_arsip', 'file'], 'required'],
             [['waktu_arsip'], 'safe'],
             [['file'], 'string'],
             [['nama'], 'string', 'max' => 50]
@@ -37,9 +38,10 @@ class Arsip extends \yii\db\ActiveRecord
     /**
      * @inheritdoc
      */
-    public function attributeLabels(){
+    public function attributeLabels()
+    {
         return [
-            'id_arsip' => 'Arsip',
+            'id_arsip' => 'Id Arsip',
             'nama' => 'Nama',
             'waktu_arsip' => 'Waktu Arsip',
             'file' => 'File',

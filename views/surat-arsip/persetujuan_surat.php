@@ -18,6 +18,7 @@ $datasurat = new Surat();
                         <th>Nomor Surat</th>
                         <th>Jenis Surat</th>
                         <th>Pengirim</th>
+                        <th>Penerima</th>
                         <th>Tanggal</th>
                         <th>Perihal</th>
                         <th>Action</th>
@@ -28,9 +29,10 @@ $datasurat = new Surat();
                         echo "<td>".$value['nomor_surat']."</td>";
                         echo "<td>".$value['id_jenis_surat']."</td>";
                         echo "<td>".$value['id_pengirim']."</td>";
+                        echo "<td>".$value['id_penerima']."</td>";
                         echo "<td>".$value['tanggal_surat']."</td>";
                         echo "<td>".$value['perihal']."</td>";
-                        echo "<td>".Html::a("Setujui", Yii::$app->urlManager->createUrl(["surat-arsip/setuju", "id"=>$value["nomor_surat"]]),[])." | ".
+                        echo "<td>".Html::a("Setujui", Yii::$app->urlManager->createUrl(["surat-arsip/persetujuan-surat", "id"=>$value["nomor_surat"]]),[])." | ".
                             Html::a("Lihat", Yii::$app->urlManager->createUrl(["surat-arsip/print", "id"=>$value["nomor_surat"]]),[])
                             ."</td>";
                         echo "</tr>";
