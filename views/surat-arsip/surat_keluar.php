@@ -33,8 +33,8 @@ $id = $user_session['login'];
                     foreach( $datasurat -> showsuratkeluar($id) as $item => $value){
                         echo "<tr>";
                         echo "<td>".$value['nomor_surat']."</td>";
-                        echo "<td>".$value['id_jenis_surat']."</td>";
-                        echo "<td>".$value['id_penerima']."</td>";
+                        echo "<td>".$value['nama_jenis_surat']."</td>";
+                        echo "<td>".$value['penerima']."</td>";
                         echo "<td>".$value['tanggal_surat']."</td>";
                         echo "<td>".$value['perihal']."</td>";
                         echo "<td>".Html::a("Delete", Yii::$app->urlManager->createUrl(["surat-arsip/delete", "id"=>$value["nomor_surat"]]),[])." | ".

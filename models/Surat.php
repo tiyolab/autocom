@@ -56,12 +56,22 @@ class Surat extends \yii\db\ActiveRecord
 
     public function showsuratmasuk($id){
         //$sql = "select nomor_surat, id_jenis_surat, id_pengirim, tanggal_surat, LEFT(perihal,25) as perihal, LEFT(isi_surat,25) as isi_surat from surat";
-        $sql = "select * from surat where id_penerima = ". $id;
+        $sql = "SELECT s.nomor_surat, j.nama_jenis_surat, u.username as pengirim, tanggal_surat, perihal
+
+FROM surat s, user u, jenis_surat j
+
+WHERE s.id_jenis_surat = j.id_jenis_surat and s.id_penerima  !=  ". $id ." and s.id_penerima = u.id";
+        echo $sql;
         return self::findBySql($sql)->asArray()->all();
     }
 
     public function showsuratkeluar($id){
-        $sql = "select * from surat where id_pengirim = ". $id;
+        $sql = "SELECT s.nomor_surat, j.nama_jenis_surat, u.username as penerima, tanggal_surat, perihal
+
+FROM surat s, user u, jenis_surat j
+
+WHERE s.id_jenis_surat = j.id_jenis_surat and s.id_pengirim  !=  ". $id ." and s.id_pengirim = u.id";
+        echo $sql;
         return self::findBySql($sql)->asArray()->all();
     }
 
