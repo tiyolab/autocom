@@ -14,6 +14,13 @@ if(class_exists('yii\debug\Module')){
 	$this->off(\yii\web\View::EVENT_END_BODY, [\yii\debug\Module::getInstance(), 'renderToolbar']);
 }
 
+$session = Yii::$app->session;
+$session->open();
+$user_session = $session['session.user'];
+$session->close();
+
+$id = $user_session['id_user_type'];
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -41,33 +48,54 @@ if(class_exists('yii\debug\Module')){
 <div class="all-wrapper fixed-header left-menu hide-side-menu">
 	<div class="page_header">
 		<div class="header-links hidden-xs"></div>
-		<a class="current logo hidden-xs" href=""><i class="fa fa-rocket"></i></a>
+		<a class="current logo hidden-xs" href="<?php echo Yii::$app->urlManager->createUrl('site/portal'); ?>"><i class="fa fa-rocket"></i></a>
 		<h1>SURAT dan ARSIP</h1>
 	</div>
 	<div class="side">
 		<div class="sidebar-wrapper">
 			<ul>
-				<li>
-					<a href="<?php echo Url::to(['buat-surat']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Buat Surat">
-						<i class="fa fa-home"></i>
-					</a>
-				</li>
-				<li>
-					<a href="<?php echo Url::to(['surat-masuk']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Masuk">
-						<i class="fa fa-file-text-o"></i>
-					</a>
-				</li>
-				<li>
-					<a href="<?php echo Url::to(['surat-keluar']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Surat Keluar">
-						<span class="badge"></span>
-						<i class="fa fa-code-fork"></i>
-					</a>
-				</li>
-				<li>
-					<a href="<?php echo Url::to(['persetujuan-surat']); ?>" data-toggle="tooltip" data-placement="right" title="" data-original-title="Persetujuan Surat">
-						<i class="fa fa-bar-chart-o"></i>
-					</a>
-				</li>
+				<?php
+					if($id== 9){
+				?>
+						<li>
+							<a href="<?php echo Url::to(['buat-surat']); ?>" data-toggle="tooltip"
+							   data-placement="right" title="" data-original-title="Buat Surat">
+								<i class="fa fa-home"></i>
+							</a>
+						</li>
+				<?php
+					}
+				?>
+						<li>
+							<a href="<?php echo Url::to(['surat-masuk']); ?>" data-toggle="tooltip"
+							   data-placement="right" title="" data-original-title="Surat Masuk">
+								<i class="fa fa-file-text-o"></i>
+							</a>
+						</li>
+				<?php
+
+					if($id==9) {
+				?>
+						<li>
+							<a href="<?php echo Url::to(['surat-keluar']); ?>" data-toggle="tooltip"
+							   data-placement="right" title="" data-original-title="Surat Keluar">
+								<span class="badge"></span>
+								<i class="fa fa-code-fork"></i>
+							</a>
+						</li>
+				<?php
+					}
+					if($id==8) {
+					?>
+						<li>
+							<a href="<?php echo Url::to(['persetujuan-surat']); ?>" data-toggle="tooltip"
+							   data-placement="right" title="" data-original-title="Persetujuan Surat">
+								<i class="fa fa-bar-chart-o"></i>
+							</a>
+						</li>
+				<?php
+					}
+				?>
 				<li>
 					<a class="menu-toggler" href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="Arsip">
 						<i class="fa fa-th"></i>

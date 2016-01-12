@@ -83,12 +83,14 @@ class SiteController extends Controller
                 /*print_r(Yii::$app->user->getId());die;*/
                 $session['session.user'] = array(
                         "login"=>true,
+                        "id"=>Yii::$app->user->identity->getId(),
                         "username"=>Yii::$app->user->identity->username,
                         "email"=>Yii::$app->user->identity->email,
                         "user_type"=>$userData[0]['user_type'],
+                        "id_user_type"=>$userData[0]['id_role'],
                         "hak_akses"=>$tmp,
                     );
-                
+
                 return $this->redirect(['site/portal']);
             }
 

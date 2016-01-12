@@ -8,9 +8,10 @@ use Yii;
  * This is the model class for table "arsip".
  *
  * @property integer $id_arsip
+ * @property integer $id_user
  * @property string $nama
  * @property string $waktu_arsip
- * @property string $file
+ * @property string $imageFile
  */
 class Arsip extends \yii\db\ActiveRecord
 {
@@ -28,9 +29,9 @@ class Arsip extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nama', 'waktu_arsip', 'file'], 'required'],
+            [['nama', 'waktu_arsip', 'imageFile'], 'required'],
             [['waktu_arsip'], 'safe'],
-            [['file'], 'string'],
+            [['imageFile'], 'string'],
             [['nama'], 'string', 'max' => 50]
         ];
     }
@@ -44,7 +45,7 @@ class Arsip extends \yii\db\ActiveRecord
             'id_arsip' => 'Id Arsip',
             'nama' => 'Nama',
             'waktu_arsip' => 'Waktu Arsip',
-            'file' => 'File',
+            'imageFile' => 'Image File',
         ];
     }
 
@@ -56,4 +57,10 @@ class Arsip extends \yii\db\ActiveRecord
     public function showonedata($id){
         return Arsip::findOne($id);
     }
+
+//    public function insertdata($data){
+//        $this->nama = $data['nama'];
+//        $this->waktu_arsip = date('Y-m-d H:i:s');
+//        $this->save();
+//    }
 }

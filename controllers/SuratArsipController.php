@@ -8,6 +8,7 @@ use mPDF;
 use app\models\Surat;
 use app\models\Arsip;
 use app\models\Memo;
+use yii\web\UploadedFile;
 
 class SuratArsipController extends SecureController{
 
@@ -115,12 +116,23 @@ class SuratArsipController extends SecureController{
 	// Membuat arsip
 	public function actionBuatArsip(){
 		if($this->isInsertAllowed()){
-			if(Yii::$app->request->post()){
-				$arsipModel = new Arsip();
-				$arsipModel->insertSurat(Yii::$app->request->post()['Arsip']);
+			$model = new Arsip();
 
+			if ($model->load(Yii::$app->request->post())) {
+				$data = Yii::$app->request->post()['Arsip'];
+
+				$model->nama = $data['nama'];
+				$model->id_user = $data['id_user'];
+				$model->waktu_arsip = date('Y-m-d H:i:s');
+				$model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+				$model->imageFile = file_get_contents($model->imageFile->tempName);
+				$model->save();
+
+				$this->redirect(['surat-arsip/arsip']);
 			}
-			return $this->render('buat_arsip');
+			return $this->render('buat_arsip', [
+				'model' => $model,
+			]);
 		}else{
 			echo "You don't have access here";die;
 		}

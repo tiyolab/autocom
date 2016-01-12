@@ -10,7 +10,7 @@ $session->open();
 $user_session = $session['session.user'];
 $session->close();
 
-$id = $user_session['login'];
+$id = $user_session['id'];
 
 ?>
 <div class="widget widget-blue">

@@ -27,9 +27,9 @@ $datasurat = new Surat();
                     foreach( $datasurat -> showsuratsetuju() as $item => $value){
                         echo "<tr>";
                         echo "<td>".$value['nomor_surat']."</td>";
-                        echo "<td>".$value['id_jenis_surat']."</td>";
-                        echo "<td>".$value['id_pengirim']."</td>";
-                        echo "<td>".$value['id_penerima']."</td>";
+                        echo "<td>".$value['jenis_surat']."</td>";
+                        echo "<td>".$value['pengirim']."</td>";
+                        echo "<td>".$value['penerima']."</td>";
                         echo "<td>".$value['tanggal_surat']."</td>";
                         echo "<td>".$value['perihal']."</td>";
                         echo "<td>".Html::a("Setujui", Yii::$app->urlManager->createUrl(["surat-arsip/persetujuan-surat", "id"=>$value["nomor_surat"]]),[])." | ".

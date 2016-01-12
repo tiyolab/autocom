@@ -35,7 +35,7 @@ $form = ActiveForm::begin([
 <select name="id_penerima">
     <option>pilih</option>
 <?php
-    foreach($datauser -> showalluser($user_session['login']) as $item => $value){
+    foreach($datauser -> showalluser($user_session['id']) as $item => $value){
         echo "<option value=".$value['id'].">".$value['username']." - ".$value['email']."</option>";
     }
 ?>

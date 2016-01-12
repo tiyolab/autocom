@@ -148,7 +148,7 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     }
 
     public function showalluser($id){
-        $sql = "select id, username, email from user where id != ". $id;
+        $sql = "select id, username, email from user where id != ". $id." order by username asc";
         return self::findBySql($sql)->asArray()->all();
     }
 }
