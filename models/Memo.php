@@ -38,12 +38,14 @@ class Memo extends \yii\db\ActiveRecord
     }
 
     public function showmemoin($id){
-        $sql = "select * from memo WHERE id_penerima = '".$id."'";
+        $sql = "select id_memo, username as pengirim, isi, waktu_memo from memo m, user u WHERE id_penerima = ".$id." and u.id = id_pengirim";
+        //echo $sql;
         return self::findBySql($sql)->asArray()->all();
     }
 
     public function showmemoout($id){
-        $sql = "select * from memo WHERE id_pengirim = '".$id."'";
+        $sql = "select id_memo, username as penerima, isi, waktu_memo from memo m, user u WHERE id_pengirim = ".$id." and u.id = id_penerima";
+        //echo $sql;
         return self::findBySql($sql)->asArray()->all();
     }
 }

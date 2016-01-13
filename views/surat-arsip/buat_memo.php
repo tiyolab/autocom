@@ -31,7 +31,7 @@ $form = ActiveForm::begin([
 
 ?>
 <br>
-<?= Html::input("hidden", "id_pengirim", $user_session['login'], ["required"=>"required"]) ?><br>
+<?= Html::input("hidden", "id_pengirim", $user_session['id'], ["required"=>"required"]) ?><br>
 <select name="id_penerima">
     <option>pilih</option>
 <?php

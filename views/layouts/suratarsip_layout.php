@@ -47,8 +47,10 @@ $id = $user_session['id_user_type'];
 
 <div class="all-wrapper fixed-header left-menu hide-side-menu">
 	<div class="page_header">
-		<div class="header-links hidden-xs"></div>
-		<a class="current logo hidden-xs" href="<?php echo Yii::$app->urlManager->createUrl('site/portal'); ?>"><i class="fa fa-rocket"></i></a>
+		<div class="header-links hidden-xs">
+			<a href="<?= Yii::$app->urlManager->createUrl("site/logout") ?>" data-method="post" data-toggle="dropdown" class="header-link"><i class="fa fa-power-off"></i> Logout </a>
+		</div>
+			<a class="current logo hidden-xs" href="<?php echo Yii::$app->urlManager->createUrl('site/portal'); ?>"><i class="fa fa-rocket"></i></a>
 		<h1>SURAT dan ARSIP</h1>
 	</div>
 	<div class="side">
@@ -106,15 +108,25 @@ $id = $user_session['id_user_type'];
 		<div class="sub-sidebar-wrapper">
 			<ul class="nav">
 				<?php
-				echo Nav::widget([
-					'items' => [
-						['label' => 'Buat Arsip', 'url' => ['/surat-arsip/buat-arsip']],
-						['label' => 'Arsip', 'url' => ['/surat-arsip/arsip']],
-						['label' => 'Buat Memo', 'url' => ['/surat-arsip/buat-memo']],
-						['label' => 'Memo Masuk', 'url' => ['/surat-arsip/memo-masuk']],
-						['label' => 'Memo Keluar', 'url' => ['/surat-arsip/memo-keluar']],
-					],
-				]);
+				//if($id==8){
+					echo Nav::widget([
+						'items' => [
+							['label' => 'Buat Arsip', 'url' => ['/surat-arsip/buat-arsip']],
+							['label' => 'Arsip', 'url' => ['/surat-arsip/arsip']],
+							['label' => 'Buat Memo', 'url' => ['/surat-arsip/buat-memo']],
+							['label' => 'Memo Masuk', 'url' => ['/surat-arsip/memo-masuk']],
+							['label' => 'Memo Keluar', 'url' => ['/surat-arsip/memo-keluar']],
+						],
+					]);
+//				}else {
+//					echo Nav::widget([
+//						'items' => [
+//							['label' => 'Buat Arsip', 'url' => ['/surat-arsip/buat-arsip']],
+//							['label' => 'Arsip', 'url' => ['/surat-arsip/arsip']],
+//							['label' => 'Memo Masuk', 'url' => ['/surat-arsip/memo-masuk']],
+//						],
+//					]);
+//				}
 				?>
 			</ul>
 		</div>

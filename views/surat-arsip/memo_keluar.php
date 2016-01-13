@@ -9,7 +9,7 @@ $session->open();
 $user_session = $session['session.user'];
 $session->close();
 
-$id = $user_session['login'];
+$id = $user_session['id'];
 ?>
 
 <div class="widget widget-blue">
@@ -22,17 +22,17 @@ $id = $user_session['login'];
                 <table class="table">
                     <tr>
                         <th>No</th>
-                        <th>Pengirim</th>
                         <th>Penerima</th>
                         <th>Isi</th>
                         <th>Waktu</th>
                     </tr>
                     <?php
+                    $no = 0;
                     foreach( $dataMemo -> showmemoout($id) as $item => $value){
+                        $no++;
                         echo "<tr>";
-                        echo "<td>".$value['id_memo']."</td>";
-                        echo "<td>".$value['id_pengirim']."</td>";
-                        echo "<td>".$value['id_penerima']."</td>";
+                        echo "<td>".$no."</td>";
+                        echo "<td>".$value['penerima']."</td>";
                         echo "<td>".$value['isi']."</td>";
                         echo "<td>".$value['waktu_memo']."</td>";
                         echo "</tr>";
