@@ -151,4 +151,27 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
         $sql = "select id, username, email from user where id != ". $id." order by username asc";
         return self::findBySql($sql)->asArray()->all();
     }
+
+    public function saveUser($id,$data){
+        $this->id_pegawai = $id['id_pegawai'];
+        $this->username = $id['nip'];
+        $this->password = md5($id['nip']);
+        $this->email = $id['email'];
+        $this->sec_question = "projek apa ?";
+        $this->sec_answer = "sim";
+        $this->user_type = $data['user_type'];
+        $this->authKey = "";
+        $this->accessToken = "";
+        //echo $data['tanggal_diterima'];die;
+        $this->save();
+    }
+    public function saveData_userEcommerce($data){
+        $this->username = $data['login_name'];
+        $this->password = md5($data['login_password']);
+        $this->user_type = '100';
+        $this->email = $data['email_address'];
+
+        $this->save();
+        return true;
+    }
 }

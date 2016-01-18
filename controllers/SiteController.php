@@ -105,12 +105,61 @@ class SiteController extends Controller
         $session->close();
     }
 
+public function actionLoginEcommerce()
+    {
+        $model = new LoginForm();
+        $postData = Yii::$app->request->post();
+        /*print_r($postData);
+        var_dump($model->load($postData));die;*/
+        if ($model->load($postData) && $model->login()) {
+            $userData = VUserRole::find()->where(["id_user"=>Yii::$app->user->getId()])->asArray()->all();
+            $tmp = array();
+            foreach ($userData as $key => $value) {
+                $tmp[$value['module']] =$value['hak_akses'];
+            }
+
+            $session = Yii::$app->session;
+            $session->open();
+            $session['session.user'] = array(
+                    "login"=>true,
+                    "username"=>Yii::$app->user->identity->username,
+                    "email"=>Yii::$app->user->identity->email,
+                   // "user_type"=>$userData[0]['user_type'],
+                    "hak_akses"=>$tmp,
+					"jml_check_out"=>0,
+					"check_out"=>array(),
+					"subprice"=>0,
+					"qty"=>array(),
+					"total_berat"=>0,
+					"shipping_price"=>0,
+					"address"=>0,
+					"zip_code"=>0,
+					"city"=>0,
+					"province"=>0,
+					"country"=>0,
+					"phone"=>0,
+                );
+            $session->close();
+            return $this->redirect(['front/front/']);
+        }
+
+        return $this->redirect(['front/front/login_user']);
+    }
+
     public function actionLogout()
     {
         Yii::$app->user->logout();
 
         return $this->goHome();
     }
+
+    public function actionLogoutEcommerce()
+    {
+        Yii::$app->user->logout();
+
+        return $this->redirect(['front/front/login_user']);
+    }
+
 
     public function actionPortal()
     {

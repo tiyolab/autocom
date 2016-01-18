@@ -6,6 +6,13 @@ use app\models\Surat;
 
 $model = new Surat();
 
+$session = Yii::$app->session;
+$session->open();
+$user_session = $session['session.user'];
+$session->close();
+
+$id = $user_session['id'];
+
 $form = ActiveForm::begin([
     'id' => 'buatsurat',
     'options' => ['class' => 'form'],
@@ -29,7 +36,8 @@ $form = ActiveForm::begin([
     </select>
 </div>
 
-<?= $form->field($model, 'id_pengirim') ?>
+<?= $form->field($model, 'id_pengirim')->hiddenInput(['value'=>$id])->label(false) ?>
+<?= $form->field($model, 'id_penerima') ?>
 <div class="form-group field-surat-tanggal_surat required">
     <label class="control-label" for="surat-tanggal_surat">Tanggal Surat</label>
     <input type="text" value="<?php echo date("Y-m-d") ?>" id="surat-tanggal_surat" class="form-control" name="Surat[tanggal_surat]">

@@ -202,8 +202,7 @@ class LogistikController extends SecureController{
 		]);
 	}
 
-	public function actionJenisKendaraan()
-	{
+	public function actionJenisKendaraan(){
 		$qw = 'jenis-kendaraan';
 		$session=Yii::$app->session;
 		$session->open();
@@ -230,8 +229,7 @@ class LogistikController extends SecureController{
 		]);
 	}
 
-	public function actionApprove()
-	{
+	public function actionApprove(){
 		$qw = 'approve';
 		$session=Yii::$app->session;
 		$session->open();

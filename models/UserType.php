@@ -63,4 +63,18 @@ class UserType extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Role::className(), ['id' => 'role']);
     }
+
+    public function getPegawai()
+    {
+        $sql = "select * FROM pegawai WHERE 1 ORDER BY id_pegawai DESC ";
+
+        return self::findBySql($sql)->asArray()->one();
+    }
+
+    public function getPegawaiId()
+    {
+        $sql = "select id_pegawai FROM pegawai WHERE 1 ORDER BY id_pegawai DESC ";
+
+        return self::findBySql($sql)->asArray()->one();
+    }
 }
