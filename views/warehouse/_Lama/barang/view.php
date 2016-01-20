@@ -1,0 +1,88 @@
+<?php
+
+use yii\helpers\Html;
+use yii\widgets\DetailView;
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
+
+/* @var $this yii\web\View */
+/* @var $model app\models\Barang */
+
+$this->title = $model->Kode_Barang;
+$this->params['breadcrumbs'][] = ['label' => 'Data Barang', 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title;
+?>
+<div class="side">
+    <div class="sub-sidebar-wrapper">
+      <ul class="nav">
+        <?php
+            echo Nav::widget([
+                    'items' => [
+                    ['label' => 'Barang', 'url' => ['/warehouse/barangindex']],
+                    ['label' => 'Kemasan', 'url' => ['/warehouse/kemasanindex']],
+                    ['label' => 'Jenis Barang', 'url' => ['/warehouse/jenisbarangindex']],                  
+                    ['label' => 'Gudang', 'url' => ['/warehouse/gudangindex']],
+                    ['label' => 'Blok', 'url' => ['/warehouse/blokindex']],
+                    ['label' => 'User', 'url' => ['/warehouse/userindex']],
+                    ['label' => 'Roles', 'url' => ['/warehouse/rolesindex']],
+                    ['label' => 'Distributor', 'url' => ['/distributorindex']],
+                ],
+            ]);
+        ?>
+      </ul>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="widget widget-green">
+        <div class="widget-title">
+            <div class="widget-controls">
+                <a href="#" class="widget-control widget-control-full-screen" data-toggle="tooltip" data-placement="top" title="" data-original-title="Full Screen"><i class="fa fa-expand"></i></a>
+                <a href="#" class="widget-control widget-control-full-screen widget-control-show-when-full" data-toggle="tooltip" data-placement="left" title="" data-original-title="Exit Full Screen"><i class="fa fa-expand"></i></a>
+                <a href="#" class="widget-control widget-control-refresh" data-toggle="tooltip" data-placement="top" title="" data-original-title="Refresh"><i class="fa fa-refresh"></i></a>
+                <a href="#" class="widget-control widget-control-minimize" data-toggle="tooltip" data-placement="top" title="" data-original-title="Minimize"><i class="fa fa-minus-circle"></i></a>
+            </div>
+            <h3><i class="fa fa-ok-circle"></i>Data Form</h3>
+        </div>
+            <div class="widget-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="barang-view">
+                            <h1><?= Html::encode($this->title) ?></h1>
+
+                            <p>
+                                <?= Html::a('Update', ['update', 'id' => $model->Kode_Barang], ['class' => 'btn btn-primary']) ?>
+                                <?= Html::a('Delete', ['delete', 'id' => $model->Kode_Barang], [
+                                    'class' => 'btn btn-danger',
+                                    'data' => [
+                                        'confirm' => 'Are you sure you want to delete this item?',
+                                        'method' => 'post',
+                                    ],
+                                ]) ?>
+                            </p>
+
+                            <?= DetailView::widget([
+                                'model' => $model,
+                                'attributes' => [
+                                    'ID',
+                                    'Kode_Barang',
+                                    'Nama_Barang',
+                                    'Jenis_Barang',
+                                    'Kemasan_ID',
+                                    'Blok_ID',
+                                    'Kadaluarsa',
+                                    'Status',
+                                    'Harga_Satuan',
+                                    'Stock',
+                                    'Gambar',
+                                ],
+                            ]) ?>
+
+                        </div>
+
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
