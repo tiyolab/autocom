@@ -2,60 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11d22b54-3de0-40e0-a3de-6eb1a2e1f674" name="Failed commit: Default" comment="update">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5692648644c83.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5692648833817.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5692648f03fe0.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569264aad769d.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569264ae22f77.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266a51ff6a.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266a874999.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266ad2caaa.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266ad38b0e.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266ad3b777.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266af2b906.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266b31e296.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266b322ff3.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266cedeede.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266d166dc5.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266d3e598d.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569266ff77553.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926741a63a8.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5692677d45f6e.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267a245cd7.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267aa9a3d3.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267ae4a119.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267af73669.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267b07ed83.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267b43dd5f.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267b52c6cc.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267b65afe1.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267b74cdd3.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267bbddd6e.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267bfd31a4.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569267ca46b0b.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926982dd2b3.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569269b46172c.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/569269d249a01.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926a018dfcc.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926a8b707b6.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926a8e1aef7.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926bb008196.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926bb00da30.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926bb011273.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926ed1484f1.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f4bf2615.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f4c015d0.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f508d719.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f5094707.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f55454fb.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f554af4b.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f554ead6.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f56c4ffc.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f5a6c9e2.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f5a76904.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f6f1fc00.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/56926f70a9774.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c6441abc3.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c64630a6a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c64ced579.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c650a5344.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c658cdba8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c658d1cf1.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c658d3967.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c65adf15a.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c832d0828.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c832d8344.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c8366b0e4.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c839d6795.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c839e3ba0.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c978d1d8f.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c978eef86.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97927423.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c9794cdf7.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97b5f69b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97b867cf.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97ba8e7b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97bb9de5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97bec08f.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97d47a6b.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97d8a8b0.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97db8fa9.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97ddb004.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97f0a62c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97f1e41f.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97f4fa86.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695c97f7cde8.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc5b6a911.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc5b881b3.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc5f83b63.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc5f92a0c.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc5fb1fee.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc5fc2309.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc5fe2925.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc616c566.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc617b358.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc61a6ec3.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc61c69f1.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc62f00c7.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc6353b9e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc64941fb.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc64a652e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc666075e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc66734e5.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc681f83d.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc682e43e.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc6ef0cc2.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/runtime/debug/5695cc6f11005.data" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/robregonm/yii2-pdf" afterPath="$PROJECT_DIR$/vendor/robregonm/yii2-pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="autocom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,42 +76,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Memo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Memo.php">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layouts/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.25">
-              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppAsset.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/AppAsset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
-                <marker date="1452651875235" expanded="true" signature="767:783" placeholder="select id_me... memo" />
-                <marker date="1452651875235" expanded="true" signature="767:860" placeholder="select id_me... memo" />
-                <marker date="1452651875235" expanded="true" signature="767:891" placeholder="select id_me... memo" />
-                <marker date="1452651875235" expanded="true" signature="1032:1151" placeholder="select * fro... memo" />
-                <marker date="1452651875235" expanded="true" signature="1032:1156" placeholder="select id_me... memo" />
+                <marker date="1452486670000" expanded="true" signature="387:394" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Surat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/Surat.php">
+      <file leaf-file-name="page_payment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/payroll/page_payment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.375">
-              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-              <folding>
-                <marker date="1452519826330" expanded="true" signature="1344:1479" placeholder="select * fro... surat" />
-                <marker date="1452519826330" expanded="true" signature="1498:1753" placeholder="SELECT s.nom... surat" />
-                <marker date="1452519826330" expanded="true" signature="1498:1811" placeholder="select * fro... surat" />
-                <marker date="1452519826330" expanded="true" signature="1878:2099" placeholder="SELECT s.nom... surat" />
-                <marker date="1452519826330" expanded="true" signature="1878:2108" placeholder="SELECT s.nom... surat" />
-                <marker date="1452519826330" expanded="true" signature="1878:2133" placeholder="SELECT s.nom... surat" />
-                <marker date="1452519826330" expanded="true" signature="2254:2279" placeholder="select * fro... jenis_surat" />
-                <marker date="1452519826330" expanded="true" signature="2794:2844" placeholder="select * fro... surat" />
-                <marker date="1452519826330" expanded="true" signature="2966:3298" placeholder="select * fro... surat" />
-                <marker date="1452519826330" expanded="true" signature="3419:3471" placeholder="update surat... " />
-                <marker date="1452519826330" expanded="true" signature="3419:3472" placeholder="update surat... " />
-                <marker date="1452519826330" expanded="true" signature="3419:3482" placeholder="update surat... " />
-                <marker date="1452519826330" expanded="true" signature="3419:3484" placeholder="update surat... " />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,86 +111,86 @@
       <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogistikController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/LogistikController.php">
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/front/views/front/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5027027">
-              <caret line="735" column="26" selection-start-line="735" selection-start-column="26" selection-end-line="735" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail_product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/front/views/front/detail_product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/front/models/productModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <marker date="1452656535295" expanded="true" signature="13170:13226" placeholder="UPDATE lg_ke... " />
-                <marker date="1452656535295" expanded="true" signature="14956:15037" placeholder="UPDATE lg_pe... " />
-                <marker date="1452656535295" expanded="true" signature="15296:15352" placeholder="UPDATE lg_ke... " />
-                <marker date="1452656535295" expanded="true" signature="16393:16519" placeholder="UPDATE lg_pe... " />
-                <marker date="1452656535295" expanded="true" signature="17243:17304" placeholder="UPDATE lg_pe... " />
-                <marker date="1452656535295" expanded="true" signature="17495:17548" placeholder="DELETE FROM " />
+                <marker date="1453105308079" expanded="true" signature="177:270" placeholder="SELECT * FRO... barang" />
+                <marker date="1453105308079" expanded="true" signature="394:523" placeholder="SELECT * FRO... barang" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kurir_Logistik.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/kurir_Logistik.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/logistik/lg-user/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LgUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/logistic/LgUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buat_memo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/surat-arsip/buat_memo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125">
-              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="memo_keluar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/surat-arsip/memo_keluar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.25">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="memo_masuk.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/surat-arsip/memo_masuk.php">
+      <file leaf-file-name="placeOrderModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/front/models/placeOrderModel.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding />
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <marker date="1453109802827" expanded="true" signature="258:330" placeholder="SELECT * FRO... customers" />
+                <marker date="1453109802827" expanded="true" signature="440:541" placeholder="SELECT * FRO... orders" />
+                <marker date="1453109802827" expanded="true" signature="651:800" placeholder="SELECT * FRO... order_items" />
+                <marker date="1453109802827" expanded="true" signature="914:982" placeholder="SELECT * FRO... lg_pengiriman" />
+                <marker date="1453109802827" expanded="true" signature="2008:2103" placeholder="SELECT * FRO... orders" />
+                <marker date="1453109802827" expanded="true" signature="2413:2613" placeholder="SELECT order... orders" />
+                <marker date="1453109802827" expanded="true" signature="2734:2852" placeholder="SELECT * FRO... orders" />
+                <marker date="1453109802827" expanded="true" signature="2990:3058" placeholder="Update baran... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="placeOrderItemModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/front/models/placeOrderItemModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1453105308079" expanded="true" signature="498:566" placeholder="Update baran... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07118055">
+              <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+              <folding>
+                <marker date="1453110011055" expanded="true" signature="2842:3022" placeholder="select user.... ${$this-&gt;tableName()}" />
+                <marker date="1453110011055" expanded="true" signature="3580:3659" placeholder="select id, u... user" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -220,14 +211,11 @@
         <option value="$PROJECT_DIR$/controllers/SecurityController.php" />
         <option value="$PROJECT_DIR$/views/suratarsip/index.php" />
         <option value="$PROJECT_DIR$/assets/AppAsset.php" />
-        <option value="$PROJECT_DIR$/views/surat-arsip/buat_surat.php" />
         <option value="$PROJECT_DIR$/views/surat-arsip/printsurat.php" />
         <option value="$PROJECT_DIR$/views/surat-arsip/arsip.php" />
         <option value="$PROJECT_DIR$/views/surat-arsip/persetujuan_surat.php" />
         <option value="$PROJECT_DIR$/views/surat-arsip/satuarsip.php" />
         <option value="$PROJECT_DIR$/views/surat-arsip/upload.php" />
-        <option value="$PROJECT_DIR$/models/Surat.php" />
-        <option value="$PROJECT_DIR$/models/User.php" />
         <option value="$PROJECT_DIR$/views/surat-arsip/surat_keluar.php" />
         <option value="$PROJECT_DIR$/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/views/surat-arsip/surat_masuk.php" />
@@ -243,6 +231,12 @@
         <option value="$PROJECT_DIR$/models/Memo.php" />
         <option value="$PROJECT_DIR$/config/db.php" />
         <option value="$PROJECT_DIR$/controllers/LogistikController.php" />
+        <option value="$PROJECT_DIR$/models/UserType.php" />
+        <option value="$PROJECT_DIR$/views/surat-arsip/buat_surat.php" />
+        <option value="$PROJECT_DIR$/models/Surat.php" />
+        <option value="$PROJECT_DIR$/views/payroll/page_payment.php" />
+        <option value="$PROJECT_DIR$/modules/front/models/placeOrderModel.php" />
+        <option value="$PROJECT_DIR$/models/User.php" />
       </list>
     </option>
   </component>
@@ -337,6 +331,42 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payroll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -353,6 +383,94 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,6 +516,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autocom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -413,6 +545,7 @@
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/views/layouts" />
+      <recent name="$PROJECT_DIR$/controllers" />
       <recent name="$PROJECT_DIR$/views/surat-arsip" />
     </key>
   </component>
@@ -520,16 +653,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <frame x="-1" y="25" width="1368" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24924472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27190334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24082935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -570,83 +703,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/SuratArsipController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/surat-arsip/buat_arsip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/surat-arsip/surat_masuk.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/suratarsip_layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="21" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SuratArsipController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/surat-arsip/arsip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/suratarsip_layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SuratArsipController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -686,13 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/AppAsset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86236936">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -714,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.026041666">
           <caret line="13" column="39" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44270834">
-          <caret line="17" column="1" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -759,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/surat-arsip/buat_surat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/surat-arsip/satuarsip.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -773,26 +808,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.375">
-          <caret line="151" column="55" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
-          <folding>
-            <marker date="1452583718089" expanded="true" signature="2842:3022" placeholder="select user.... ${$this-&gt;tableName()}" />
-            <marker date="1452583718089" expanded="true" signature="3580:3629" placeholder="select id, u... user" />
-            <marker date="1452583718089" expanded="true" signature="3580:3636" placeholder="select id, u... user" />
-            <marker date="1452583718089" expanded="true" signature="3580:3637" placeholder="select id, u... user" />
-            <marker date="1452583718089" expanded="true" signature="3580:3659" placeholder="select id, u... user" />
-            <marker date="1452583718089" expanded="true" signature="3580:3660" placeholder="select id, u... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/surat-arsip/surat_keluar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.125">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,20 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13020833">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/portal_layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4583334">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -842,26 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26132405">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/surat-arsip/buat_arsip.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4965157">
-          <caret line="19" column="102" selection-start-line="19" selection-start-column="102" selection-end-line="19" selection-end-column="102" />
-          <folding>
-            <element signature="e#7#28#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SuratArsipController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5470383">
-          <caret line="126" column="81" selection-start-line="126" selection-start-column="81" selection-end-line="126" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -869,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4860627">
           <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
-          <folding>
-            <element signature="e#66#87#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,67 +861,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/surat-arsip/memo_keluar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/surat-arsip/buat_memo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Memo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <marker date="1452651875235" expanded="true" signature="767:783" placeholder="select id_me... memo" />
-            <marker date="1452651875235" expanded="true" signature="767:860" placeholder="select id_me... memo" />
-            <marker date="1452651875235" expanded="true" signature="767:891" placeholder="select id_me... memo" />
-            <marker date="1452651875235" expanded="true" signature="1032:1151" placeholder="select * fro... memo" />
-            <marker date="1452651875235" expanded="true" signature="1032:1156" placeholder="select id_me... memo" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Surat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.375">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding>
-            <marker date="1452519826330" expanded="true" signature="1344:1479" placeholder="select * fro... surat" />
-            <marker date="1452519826330" expanded="true" signature="1498:1753" placeholder="SELECT s.nom... surat" />
-            <marker date="1452519826330" expanded="true" signature="1498:1811" placeholder="select * fro... surat" />
-            <marker date="1452519826330" expanded="true" signature="1878:2099" placeholder="SELECT s.nom... surat" />
-            <marker date="1452519826330" expanded="true" signature="1878:2108" placeholder="SELECT s.nom... surat" />
-            <marker date="1452519826330" expanded="true" signature="1878:2133" placeholder="SELECT s.nom... surat" />
-            <marker date="1452519826330" expanded="true" signature="2254:2279" placeholder="select * fro... jenis_surat" />
-            <marker date="1452519826330" expanded="true" signature="2794:2844" placeholder="select * fro... surat" />
-            <marker date="1452519826330" expanded="true" signature="2966:3298" placeholder="select * fro... surat" />
-            <marker date="1452519826330" expanded="true" signature="3419:3471" placeholder="update surat... " />
-            <marker date="1452519826330" expanded="true" signature="3419:3472" placeholder="update surat... " />
-            <marker date="1452519826330" expanded="true" signature="3419:3482" placeholder="update surat... " />
-            <marker date="1452519826330" expanded="true" signature="3419:3484" placeholder="update surat... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +889,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/LogistikController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="43" selection-start-line="204" selection-start-column="43" selection-end-line="204" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/HrdAbsensi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/human-resource/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ecommerceDataBarang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/HumanResourceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -955,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,21 +945,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SuratArsipController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-73.708336">
+          <caret line="126" column="81" selection-start-line="126" selection-start-column="81" selection-end-line="126" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/surat-arsip/buat_arsip.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/surat-arsip/buat_surat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Surat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="134" selection-start-line="70" selection-start-column="134" selection-end-line="70" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/portal_layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/LogistikController.php">
+    <entry file="file://$PROJECT_DIR$/assets/AppAsset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5027027">
-          <caret line="735" column="26" selection-start-line="735" selection-start-column="26" selection-end-line="735" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
-            <marker date="1452656535295" expanded="true" signature="13170:13226" placeholder="UPDATE lg_ke... " />
-            <marker date="1452656535295" expanded="true" signature="14956:15037" placeholder="UPDATE lg_pe... " />
-            <marker date="1452656535295" expanded="true" signature="15296:15352" placeholder="UPDATE lg_ke... " />
-            <marker date="1452656535295" expanded="true" signature="16393:16519" placeholder="UPDATE lg_pe... " />
-            <marker date="1452656535295" expanded="true" signature="17243:17304" placeholder="UPDATE lg_pe... " />
-            <marker date="1452656535295" expanded="true" signature="17495:17548" placeholder="DELETE FROM " />
+            <marker date="1452486670000" expanded="true" signature="387:394" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/payroll/page_payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/front/views/front/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/front/views/front/detail_product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/front/models/productModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1453105308079" expanded="true" signature="177:270" placeholder="SELECT * FRO... barang" />
+            <marker date="1453105308079" expanded="true" signature="394:523" placeholder="SELECT * FRO... barang" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/front/models/placeOrderModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <marker date="1453109802827" expanded="true" signature="258:330" placeholder="SELECT * FRO... customers" />
+            <marker date="1453109802827" expanded="true" signature="440:541" placeholder="SELECT * FRO... orders" />
+            <marker date="1453109802827" expanded="true" signature="651:800" placeholder="SELECT * FRO... order_items" />
+            <marker date="1453109802827" expanded="true" signature="914:982" placeholder="SELECT * FRO... lg_pengiriman" />
+            <marker date="1453109802827" expanded="true" signature="2008:2103" placeholder="SELECT * FRO... orders" />
+            <marker date="1453109802827" expanded="true" signature="2413:2613" placeholder="SELECT order... orders" />
+            <marker date="1453109802827" expanded="true" signature="2734:2852" placeholder="SELECT * FRO... orders" />
+            <marker date="1453109802827" expanded="true" signature="2990:3058" placeholder="Update baran... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/front/models/placeOrderItemModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1453105308079" expanded="true" signature="498:566" placeholder="Update baran... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07118055">
+          <caret line="140" column="38" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+          <folding>
+            <marker date="1453110011055" expanded="true" signature="2842:3022" placeholder="select user.... ${$this-&gt;tableName()}" />
+            <marker date="1453110011055" expanded="true" signature="3580:3659" placeholder="select id, u... user" />
           </folding>
         </state>
       </provider>

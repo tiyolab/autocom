@@ -60,6 +60,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     </div>
 </div>
+<script type="text/javascript" src="<?= Yii::$app->request->BaseUrl ?>/assets/js/ajax/jquery.min.js"></script>
 <script type="text/javascript">
 var formValid = false;
 checkValidAndReadyToShowUp();

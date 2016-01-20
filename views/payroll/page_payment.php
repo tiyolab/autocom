@@ -5,8 +5,12 @@
 /* @var $model app\models\LoginForm */
 
 $this->title = 'Payment History';
-$this->params['breadcrumbs'][] = $this->title;
 ?>
+
+<div class="alert alert-warning alert-dismissable">
+    <i class="fa fa-exclamation-circle"></i>
+    <strong>Untuk lihat slip gaji <a href="<?= Yii::$app->request->BaseUrl ?>/payroll/cetak_slip" target="_blank">disini</a> </strong>
+</div>
 
 <div class="site-login">
     <div class="col-lg-12">
@@ -45,6 +49,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 
 <script type="text/javascript" src="<?= Yii::$app->request->BaseUrl ?>/assets/js/ajax/jquery.min.js"></script>
+<script type="text/javascript" src="<?= Yii::$app->request->BaseUrl ?>/assets/js/plugins/datatables/datatables.min.js"></script>
 <script type="text/javascript">
 var tbl = $('#penggajian-pegawai');
 
